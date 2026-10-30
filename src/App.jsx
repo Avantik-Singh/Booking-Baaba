@@ -1,0 +1,12 @@
+import { Routes, Route, Navigate } from "react-router-dom";
+import HomePage from "@/pages/HomePage";
+import ResultsPage from "@/pages/ResultsPage";
+export function App() {
+    return (<Routes>
+      <Route path="/" element={<HomePage />}/>
+      <Route path="/results" element={<ResultsPage />}/>
+      <Route path="/booking" element={<Navigate to="/" replace/>}/>
+      <Route path="*" element={<Navigate to="/" replace/>}/>
+    </Routes>);
+}
+export default App;

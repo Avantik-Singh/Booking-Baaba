@@ -1,0 +1,178 @@
+[
+  {
+    "id": "city-del",
+    "name": "Delhi",
+    "state": "Delhi",
+    "region": "North",
+    "popularStationId": "station-ndls",
+    "popularAirportId": "airport-del"
+  },
+  {
+    "id": "city-bom",
+    "name": "Mumbai",
+    "state": "Maharashtra",
+    "region": "West",
+    "popularStationId": "station-mmct",
+    "popularAirportId": "airport-bom"
+  },
+  {
+    "id": "city-blr",
+    "name": "Bengaluru",
+    "state": "Karnataka",
+    "region": "South",
+    "popularStationId": "station-sbc",
+    "popularAirportId": "airport-blr"
+  },
+  {
+    "id": "city-che",
+    "name": "Chennai",
+    "state": "Tamil Nadu",
+    "region": "South",
+    "popularStationId": "station-mas",
+    "popularAirportId": "airport-maa"
+  },
+  {
+    "id": "city-hyd",
+    "name": "Hyderabad",
+    "state": "Telangana",
+    "region": "South",
+    "popularStationId": "station-sc",
+    "popularAirportId": "airport-hyd"
+  },
+  {
+    "id": "city-pune",
+    "name": "Pune",
+    "state": "Maharashtra",
+    "region": "West",
+    "popularStationId": "station-pune",
+    "popularAirportId": "airport-pnq"
+  },
+  {
+    "id": "city-jai",
+    "name": "Jaipur",
+    "state": "Rajasthan",
+    "region": "North",
+    "popularStationId": "station-jp",
+    "popularAirportId": "airport-jai"
+  },
+  {
+    "id": "city-goa",
+    "name": "Goa",
+    "state": "Goa",
+    "region": "West",
+    "popularStationId": "station-kcvl",
+    "popularAirportId": "airport-goi"
+  },
+  {
+    "id": "city-amd",
+    "name": "Ahmedabad",
+    "state": "Gujarat",
+    "region": "West",
+    "popularStationId": "station-adi",
+    "popularAirportId": "airport-amd"
+  },
+  {
+    "id": "city-vns",
+    "name": "Varanasi",
+    "state": "Uttar Pradesh",
+    "region": "North",
+    "popularStationId": "station-bsb",
+    "popularAirportId": "airport-vns"
+  },
+  {
+    "id": "city-lko",
+    "name": "Lucknow",
+    "state": "Uttar Pradesh",
+    "region": "North",
+    "popularStationId": "station-lko",
+    "popularAirportId": "airport-lko"
+  },
+  {
+    "id": "city-cok",
+    "name": "Kochi",
+    "state": "Kerala",
+    "region": "South",
+    "popularStationId": "station-ers",
+    "popularAirportId": "airport-cok"
+  },
+  {
+    "id": "city-cbe",
+    "name": "Coimbatore",
+    "state": "Tamil Nadu",
+    "region": "South",
+    "popularStationId": "station-cbe",
+    "popularAirportId": "airport-maa"
+  },
+  {
+    "id": "city-vja",
+    "name": "Vijayawada",
+    "state": "Andhra Pradesh",
+    "region": "South",
+    "popularStationId": "station-bza",
+    "popularAirportId": "airport-hyd"
+  },
+  {
+    "id": "city-udr",
+    "name": "Udaipur",
+    "state": "Rajasthan",
+    "region": "North",
+    "popularStationId": "station-jp",
+    "popularAirportId": "airport-jai"
+  },
+  {
+    "id": "city-mys",
+    "name": "Mysuru",
+    "state": "Karnataka",
+    "region": "South",
+    "popularStationId": "station-sbc",
+    "popularAirportId": "airport-blr"
+  },
+  {
+    "id": "city-ind",
+    "name": "Indore",
+    "state": "Madhya Pradesh",
+    "region": "Central",
+    "popularStationId": "station-bpl",
+    "popularAirportId": "airport-bom"
+  },
+  {
+    "id": "city-nag",
+    "name": "Nagpur",
+    "state": "Maharashtra",
+    "region": "Central",
+    "popularStationId": "station-bpl",
+    "popularAirportId": "airport-bom"
+  },
+  {
+    "id": "city-mnl",
+    "name": "Manali",
+    "state": "Himachal Pradesh",
+    "region": "North",
+    "popularStationId": "station-ndls",
+    "popularAirportId": "airport-ixc"
+  },
+  {
+    "id": "city-pon",
+    "name": "Pondicherry",
+    "state": "Puducherry",
+    "region": "South",
+    "popularStationId": "station-mas",
+    "popularAirportId": "airport-maa"
+  },
+  {
+    "id": "city-shm",
+    "name": "Shimla",
+    "state": "Himachal Pradesh",
+    "region": "North",
+    "popularStationId": "station-ndls",
+    "popularAirportId": "airport-ixc"
+  },
+  {
+    "id": "city-agr",
+    "name": "Agra",
+    "state": "Uttar Pradesh",
+    "region": "North",
+    "popularStationId": "station-agc",
+    "popularAirportId": "airport-del"
+  }
+]

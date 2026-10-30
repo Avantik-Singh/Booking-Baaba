@@ -1,0 +1,436 @@
+[
+  {
+    "id": "route-train-del-var",
+    "transportMode": "train",
+    "originId": "station-ndls",
+    "destinationId": "station-bsb",
+    "distanceKm": 759,
+    "estimatedDurationMinutes": 480,
+    "operatingDays": [0, 1, 2, 3, 4, 5, 6]
+  },
+  {
+    "id": "route-train-var-del",
+    "transportMode": "train",
+    "originId": "station-bsb",
+    "destinationId": "station-ndls",
+    "distanceKm": 759,
+    "estimatedDurationMinutes": 480,
+    "operatingDays": [0, 1, 2, 3, 4, 5, 6]
+  },
+  {
+    "id": "route-train-del-bom",
+    "transportMode": "train",
+    "originId": "station-ndls",
+    "destinationId": "station-mmct",
+    "distanceKm": 1384,
+    "estimatedDurationMinutes": 950,
+    "operatingDays": [0, 1, 2, 3, 4, 5, 6]
+  },
+  {
+    "id": "route-train-bom-del",
+    "transportMode": "train",
+    "originId": "station-mmct",
+    "destinationId": "station-ndls",
+    "distanceKm": 1384,
+    "estimatedDurationMinutes": 950,
+    "operatingDays": [0, 1, 2, 3, 4, 5, 6]
+  },
+  {
+    "id": "route-train-del-hwh",
+    "transportMode": "train",
+    "originId": "station-ndls",
+    "destinationId": "station-hwh",
+    "distanceKm": 1445,
+    "estimatedDurationMinutes": 1020,
+    "operatingDays": [0, 1, 2, 3, 4, 5, 6]
+  },
+  {
+    "id": "route-train-del-blr",
+    "transportMode": "train",
+    "originId": "station-ndls",
+    "destinationId": "station-sbc",
+    "distanceKm": 2365,
+    "estimatedDurationMinutes": 2040,
+    "operatingDays": [0, 1, 2, 3, 4, 5, 6]
+  },
+  {
+    "id": "route-train-blr-che",
+    "transportMode": "train",
+    "originId": "station-sbc",
+    "destinationId": "station-mas",
+    "distanceKm": 358,
+    "estimatedDurationMinutes": 260,
+    "operatingDays": [0, 1, 2, 3, 4, 5, 6]
+  },
+  {
+    "id": "route-train-che-blr",
+    "transportMode": "train",
+    "originId": "station-mas",
+    "destinationId": "station-sbc",
+    "distanceKm": 358,
+    "estimatedDurationMinutes": 260,
+    "operatingDays": [0, 1, 2, 3, 4, 5, 6]
+  },
+  {
+    "id": "route-train-bom-adi",
+    "transportMode": "train",
+    "originId": "station-mmct",
+    "destinationId": "station-adi",
+    "distanceKm": 492,
+    "estimatedDurationMinutes": 320,
+    "operatingDays": [0, 1, 2, 3, 4, 5, 6]
+  },
+  {
+    "id": "route-train-adi-bom",
+    "transportMode": "train",
+    "originId": "station-adi",
+    "destinationId": "station-mmct",
+    "distanceKm": 492,
+    "estimatedDurationMinutes": 320,
+    "operatingDays": [0, 1, 2, 3, 4, 5, 6]
+  },
+  {
+    "id": "route-train-bom-pune",
+    "transportMode": "train",
+    "originId": "station-mmct",
+    "destinationId": "station-pune",
+    "distanceKm": 192,
+    "estimatedDurationMinutes": 190,
+    "operatingDays": [0, 1, 2, 3, 4, 5, 6]
+  },
+  {
+    "id": "route-train-pune-bom",
+    "transportMode": "train",
+    "originId": "station-pune",
+    "destinationId": "station-mmct",
+    "distanceKm": 192,
+    "estimatedDurationMinutes": 190,
+    "operatingDays": [0, 1, 2, 3, 4, 5, 6]
+  },
+  {
+    "id": "route-train-del-jp",
+    "transportMode": "train",
+    "originId": "station-ndls",
+    "destinationId": "station-jp",
+    "distanceKm": 308,
+    "estimatedDurationMinutes": 230,
+    "operatingDays": [0, 1, 2, 3, 4, 5, 6]
+  },
+  {
+    "id": "route-train-del-lko",
+    "transportMode": "train",
+    "originId": "station-ndls",
+    "destinationId": "station-lko",
+    "distanceKm": 512,
+    "estimatedDurationMinutes": 370,
+    "operatingDays": [0, 1, 2, 3, 4, 5, 6]
+  },
+  {
+    "id": "route-train-che-cbe",
+    "transportMode": "train",
+    "originId": "station-mas",
+    "destinationId": "station-cbe",
+    "distanceKm": 497,
+    "estimatedDurationMinutes": 360,
+    "operatingDays": [0, 1, 2, 3, 4, 5, 6]
+  },
+  {
+    "id": "route-train-sc-bza",
+    "transportMode": "train",
+    "originId": "station-sc",
+    "destinationId": "station-bza",
+    "distanceKm": 313,
+    "estimatedDurationMinutes": 200,
+    "operatingDays": [0, 1, 2, 3, 4, 5, 6]
+  },
+
+  {
+    "id": "route-flight-del-blr",
+    "transportMode": "flight",
+    "originId": "airport-del",
+    "destinationId": "airport-blr",
+    "distanceKm": 1740,
+    "estimatedDurationMinutes": 165,
+    "operatingDays": [0, 1, 2, 3, 4, 5, 6]
+  },
+  {
+    "id": "route-flight-blr-del",
+    "transportMode": "flight",
+    "originId": "airport-blr",
+    "destinationId": "airport-del",
+    "distanceKm": 1740,
+    "estimatedDurationMinutes": 170,
+    "operatingDays": [0, 1, 2, 3, 4, 5, 6]
+  },
+  {
+    "id": "route-flight-del-bom",
+    "transportMode": "flight",
+    "originId": "airport-del",
+    "destinationId": "airport-bom",
+    "distanceKm": 1148,
+    "estimatedDurationMinutes": 130,
+    "operatingDays": [0, 1, 2, 3, 4, 5, 6]
+  },
+  {
+    "id": "route-flight-bom-del",
+    "transportMode": "flight",
+    "originId": "airport-bom",
+    "destinationId": "airport-del",
+    "distanceKm": 1148,
+    "estimatedDurationMinutes": 130,
+    "operatingDays": [0, 1, 2, 3, 4, 5, 6]
+  },
+  {
+    "id": "route-flight-bom-goi",
+    "transportMode": "flight",
+    "originId": "airport-bom",
+    "destinationId": "airport-goi",
+    "distanceKm": 435,
+    "estimatedDurationMinutes": 75,
+    "operatingDays": [0, 1, 2, 3, 4, 5, 6]
+  },
+  {
+    "id": "route-flight-del-goi",
+    "transportMode": "flight",
+    "originId": "airport-del",
+    "destinationId": "airport-goi",
+    "distanceKm": 1500,
+    "estimatedDurationMinutes": 150,
+    "operatingDays": [0, 1, 2, 3, 4, 5, 6]
+  },
+  {
+    "id": "route-flight-del-ccu",
+    "transportMode": "flight",
+    "originId": "airport-del",
+    "destinationId": "airport-ccu",
+    "distanceKm": 1305,
+    "estimatedDurationMinutes": 135,
+    "operatingDays": [0, 1, 2, 3, 4, 5, 6]
+  },
+  {
+    "id": "route-flight-blr-bom",
+    "transportMode": "flight",
+    "originId": "airport-blr",
+    "destinationId": "airport-bom",
+    "distanceKm": 842,
+    "estimatedDurationMinutes": 100,
+    "operatingDays": [0, 1, 2, 3, 4, 5, 6]
+  },
+  {
+    "id": "route-flight-bom-blr",
+    "transportMode": "flight",
+    "originId": "airport-bom",
+    "destinationId": "airport-blr",
+    "distanceKm": 842,
+    "estimatedDurationMinutes": 100,
+    "operatingDays": [0, 1, 2, 3, 4, 5, 6]
+  },
+  {
+    "id": "route-flight-hyd-del",
+    "transportMode": "flight",
+    "originId": "airport-hyd",
+    "destinationId": "airport-del",
+    "distanceKm": 1250,
+    "estimatedDurationMinutes": 130,
+    "operatingDays": [0, 1, 2, 3, 4, 5, 6]
+  },
+  {
+    "id": "route-flight-del-dxb",
+    "transportMode": "flight",
+    "originId": "airport-del",
+    "destinationId": "airport-dxb",
+    "distanceKm": 2185,
+    "estimatedDurationMinutes": 235,
+    "operatingDays": [0, 1, 2, 3, 4, 5, 6]
+  },
+  {
+    "id": "route-flight-bom-dxb",
+    "transportMode": "flight",
+    "originId": "airport-bom",
+    "destinationId": "airport-dxb",
+    "distanceKm": 1928,
+    "estimatedDurationMinutes": 205,
+    "operatingDays": [0, 1, 2, 3, 4, 5, 6]
+  },
+  {
+    "id": "route-flight-blr-sin",
+    "transportMode": "flight",
+    "originId": "airport-blr",
+    "destinationId": "airport-sin",
+    "distanceKm": 3190,
+    "estimatedDurationMinutes": 275,
+    "operatingDays": [0, 1, 2, 3, 4, 5, 6]
+  },
+  {
+    "id": "route-flight-del-lhr",
+    "transportMode": "flight",
+    "originId": "airport-del",
+    "destinationId": "airport-lhr",
+    "distanceKm": 6710,
+    "estimatedDurationMinutes": 540,
+    "operatingDays": [0, 1, 2, 3, 4, 5, 6]
+  },
+  {
+    "id": "route-flight-bom-lhr",
+    "transportMode": "flight",
+    "originId": "airport-bom",
+    "destinationId": "airport-lhr",
+    "distanceKm": 7200,
+    "estimatedDurationMinutes": 570,
+    "operatingDays": [0, 1, 2, 3, 4, 5, 6]
+  },
+  {
+    "id": "route-flight-maa-blr",
+    "transportMode": "flight",
+    "originId": "airport-maa",
+    "destinationId": "airport-blr",
+    "distanceKm": 270,
+    "estimatedDurationMinutes": 55,
+    "operatingDays": [0, 1, 2, 3, 4, 5, 6]
+  },
+
+  {
+    "id": "route-bus-blr-che",
+    "transportMode": "bus",
+    "originId": "city-blr",
+    "destinationId": "city-che",
+    "distanceKm": 350,
+    "estimatedDurationMinutes": 360,
+    "operatingDays": [0, 1, 2, 3, 4, 5, 6]
+  },
+  {
+    "id": "route-bus-che-blr",
+    "transportMode": "bus",
+    "originId": "city-che",
+    "destinationId": "city-blr",
+    "distanceKm": 350,
+    "estimatedDurationMinutes": 360,
+    "operatingDays": [0, 1, 2, 3, 4, 5, 6]
+  },
+  {
+    "id": "route-bus-bom-pune",
+    "transportMode": "bus",
+    "originId": "city-bom",
+    "destinationId": "city-pune",
+    "distanceKm": 150,
+    "estimatedDurationMinutes": 210,
+    "operatingDays": [0, 1, 2, 3, 4, 5, 6]
+  },
+  {
+    "id": "route-bus-pune-bom",
+    "transportMode": "bus",
+    "originId": "city-pune",
+    "destinationId": "city-bom",
+    "distanceKm": 150,
+    "estimatedDurationMinutes": 210,
+    "operatingDays": [0, 1, 2, 3, 4, 5, 6]
+  },
+  {
+    "id": "route-bus-del-jai",
+    "transportMode": "bus",
+    "originId": "city-del",
+    "destinationId": "city-jai",
+    "distanceKm": 270,
+    "estimatedDurationMinutes": 300,
+    "operatingDays": [0, 1, 2, 3, 4, 5, 6]
+  },
+  {
+    "id": "route-bus-jai-del",
+    "transportMode": "bus",
+    "originId": "city-jai",
+    "destinationId": "city-del",
+    "distanceKm": 270,
+    "estimatedDurationMinutes": 300,
+    "operatingDays": [0, 1, 2, 3, 4, 5, 6]
+  },
+  {
+    "id": "route-bus-del-mnl",
+    "transportMode": "bus",
+    "originId": "city-del",
+    "destinationId": "city-mnl",
+    "distanceKm": 530,
+    "estimatedDurationMinutes": 780,
+    "operatingDays": [0, 1, 2, 3, 4, 5, 6]
+  },
+  {
+    "id": "route-bus-blr-hyd",
+    "transportMode": "bus",
+    "originId": "city-blr",
+    "destinationId": "city-hyd",
+    "distanceKm": 570,
+    "estimatedDurationMinutes": 510,
+    "operatingDays": [0, 1, 2, 3, 4, 5, 6]
+  },
+  {
+    "id": "route-bus-hyd-blr",
+    "transportMode": "bus",
+    "originId": "city-hyd",
+    "destinationId": "city-blr",
+    "distanceKm": 570,
+    "estimatedDurationMinutes": 510,
+    "operatingDays": [0, 1, 2, 3, 4, 5, 6]
+  },
+  {
+    "id": "route-bus-blr-goa",
+    "transportMode": "bus",
+    "originId": "city-blr",
+    "destinationId": "city-goa",
+    "distanceKm": 560,
+    "estimatedDurationMinutes": 660,
+    "operatingDays": [0, 1, 2, 3, 4, 5, 6]
+  },
+  {
+    "id": "route-bus-bom-goa",
+    "transportMode": "bus",
+    "originId": "city-bom",
+    "destinationId": "city-goa",
+    "distanceKm": 580,
+    "estimatedDurationMinutes": 720,
+    "operatingDays": [0, 1, 2, 3, 4, 5, 6]
+  },
+  {
+    "id": "route-bus-che-cbe",
+    "transportMode": "bus",
+    "originId": "city-che",
+    "destinationId": "city-cbe",
+    "distanceKm": 505,
+    "estimatedDurationMinutes": 480,
+    "operatingDays": [0, 1, 2, 3, 4, 5, 6]
+  },
+  {
+    "id": "route-bus-blr-cok",
+    "transportMode": "bus",
+    "originId": "city-blr",
+    "destinationId": "city-cok",
+    "distanceKm": 530,
+    "estimatedDurationMinutes": 570,
+    "operatingDays": [0, 1, 2, 3, 4, 5, 6]
+  },
+  {
+    "id": "route-bus-che-pon",
+    "transportMode": "bus",
+    "originId": "city-che",
+    "destinationId": "city-pon",
+    "distanceKm": 150,
+    "estimatedDurationMinutes": 180,
+    "operatingDays": [0, 1, 2, 3, 4, 5, 6]
+  },
+  {
+    "id": "route-bus-hyd-vja",
+    "transportMode": "bus",
+    "originId": "city-hyd",
+    "destinationId": "city-vja",
+    "distanceKm": 275,
+    "estimatedDurationMinutes": 300,
+    "operatingDays": [0, 1, 2, 3, 4, 5, 6]
+  },
+  {
+    "id": "route-bus-del-agr",
+    "transportMode": "bus",
+    "originId": "city-del",
+    "destinationId": "city-agr",
+    "distanceKm": 210,
+    "estimatedDurationMinutes": 210,
+    "operatingDays": [0, 1, 2, 3, 4, 5, 6]
+  }
+]

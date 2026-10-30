@@ -1,0 +1,2080 @@
+[
+  {
+    "id": "flight-economy-3x3",
+    "transportMode": "aircraft",
+    "name": "Airbus A320 Economy (3-3)",
+    "description": "Standard 3-3 single aisle seating for domestic flights",
+    "rows": 8,
+    "columns": 6,
+    "demoData": true,
+    "seats": [
+      {
+        "id": "f-1A",
+        "label": "1A",
+        "row": 1,
+        "column": 1,
+        "type": "window",
+        "status": "occupied",
+        "price": 400,
+        "features": [
+          "Extra Legroom"
+        ]
+      },
+      {
+        "id": "f-1B",
+        "label": "1B",
+        "row": 1,
+        "column": 2,
+        "type": "middle",
+        "status": "available",
+        "price": 300,
+        "features": [
+          "Extra Legroom"
+        ]
+      },
+      {
+        "id": "f-1C",
+        "label": "1C",
+        "row": 1,
+        "column": 3,
+        "type": "aisle",
+        "status": "available",
+        "price": 350,
+        "features": [
+          "Extra Legroom"
+        ]
+      },
+      {
+        "id": "f-1D",
+        "label": "1D",
+        "row": 1,
+        "column": 4,
+        "type": "aisle",
+        "status": "occupied",
+        "price": 350,
+        "features": [
+          "Extra Legroom"
+        ]
+      },
+      {
+        "id": "f-1E",
+        "label": "1E",
+        "row": 1,
+        "column": 5,
+        "type": "middle",
+        "status": "available",
+        "price": 300,
+        "features": [
+          "Extra Legroom"
+        ]
+      },
+      {
+        "id": "f-1F",
+        "label": "1F",
+        "row": 1,
+        "column": 6,
+        "type": "window",
+        "status": "available",
+        "price": 400,
+        "features": [
+          "Extra Legroom"
+        ]
+      },
+      {
+        "id": "f-2A",
+        "label": "2A",
+        "row": 2,
+        "column": 1,
+        "type": "window",
+        "status": "available",
+        "price": 250
+      },
+      {
+        "id": "f-2B",
+        "label": "2B",
+        "row": 2,
+        "column": 2,
+        "type": "middle",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "f-2C",
+        "label": "2C",
+        "row": 2,
+        "column": 3,
+        "type": "aisle",
+        "status": "occupied",
+        "price": 200
+      },
+      {
+        "id": "f-2D",
+        "label": "2D",
+        "row": 2,
+        "column": 4,
+        "type": "aisle",
+        "status": "available",
+        "price": 200
+      },
+      {
+        "id": "f-2E",
+        "label": "2E",
+        "row": 2,
+        "column": 5,
+        "type": "middle",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "f-2F",
+        "label": "2F",
+        "row": 2,
+        "column": 6,
+        "type": "window",
+        "status": "available",
+        "price": 250
+      },
+      {
+        "id": "f-3A",
+        "label": "3A",
+        "row": 3,
+        "column": 1,
+        "type": "window",
+        "status": "occupied",
+        "price": 250
+      },
+      {
+        "id": "f-3B",
+        "label": "3B",
+        "row": 3,
+        "column": 2,
+        "type": "middle",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "f-3C",
+        "label": "3C",
+        "row": 3,
+        "column": 3,
+        "type": "aisle",
+        "status": "available",
+        "price": 200
+      },
+      {
+        "id": "f-3D",
+        "label": "3D",
+        "row": 3,
+        "column": 4,
+        "type": "aisle",
+        "status": "available",
+        "price": 200
+      },
+      {
+        "id": "f-3E",
+        "label": "3E",
+        "row": 3,
+        "column": 5,
+        "type": "middle",
+        "status": "occupied",
+        "price": 0
+      },
+      {
+        "id": "f-3F",
+        "label": "3F",
+        "row": 3,
+        "column": 6,
+        "type": "window",
+        "status": "available",
+        "price": 250
+      },
+      {
+        "id": "f-4A",
+        "label": "4A",
+        "row": 4,
+        "column": 1,
+        "type": "window",
+        "status": "available",
+        "price": 250
+      },
+      {
+        "id": "f-4B",
+        "label": "4B",
+        "row": 4,
+        "column": 2,
+        "type": "middle",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "f-4C",
+        "label": "4C",
+        "row": 4,
+        "column": 3,
+        "type": "aisle",
+        "status": "available",
+        "price": 200
+      },
+      {
+        "id": "f-4D",
+        "label": "4D",
+        "row": 4,
+        "column": 4,
+        "type": "aisle",
+        "status": "occupied",
+        "price": 200
+      },
+      {
+        "id": "f-4E",
+        "label": "4E",
+        "row": 4,
+        "column": 5,
+        "type": "middle",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "f-4F",
+        "label": "4F",
+        "row": 4,
+        "column": 6,
+        "type": "window",
+        "status": "available",
+        "price": 250
+      },
+      {
+        "id": "f-5A",
+        "label": "5A",
+        "row": 5,
+        "column": 1,
+        "type": "window",
+        "status": "available",
+        "price": 250
+      },
+      {
+        "id": "f-5B",
+        "label": "5B",
+        "row": 5,
+        "column": 2,
+        "type": "middle",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "f-5C",
+        "label": "5C",
+        "row": 5,
+        "column": 3,
+        "type": "aisle",
+        "status": "available",
+        "price": 200
+      },
+      {
+        "id": "f-5D",
+        "label": "5D",
+        "row": 5,
+        "column": 4,
+        "type": "aisle",
+        "status": "available",
+        "price": 200
+      },
+      {
+        "id": "f-5E",
+        "label": "5E",
+        "row": 5,
+        "column": 5,
+        "type": "middle",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "f-5F",
+        "label": "5F",
+        "row": 5,
+        "column": 6,
+        "type": "window",
+        "status": "occupied",
+        "price": 250
+      },
+      {
+        "id": "f-6A",
+        "label": "6A",
+        "row": 6,
+        "column": 1,
+        "type": "window",
+        "status": "occupied",
+        "price": 250
+      },
+      {
+        "id": "f-6B",
+        "label": "6B",
+        "row": 6,
+        "column": 2,
+        "type": "middle",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "f-6C",
+        "label": "6C",
+        "row": 6,
+        "column": 3,
+        "type": "aisle",
+        "status": "available",
+        "price": 200
+      },
+      {
+        "id": "f-6D",
+        "label": "6D",
+        "row": 6,
+        "column": 4,
+        "type": "aisle",
+        "status": "available",
+        "price": 200
+      },
+      {
+        "id": "f-6E",
+        "label": "6E",
+        "row": 6,
+        "column": 5,
+        "type": "middle",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "f-6F",
+        "label": "6F",
+        "row": 6,
+        "column": 6,
+        "type": "window",
+        "status": "available",
+        "price": 250
+      },
+      {
+        "id": "f-7A",
+        "label": "7A",
+        "row": 7,
+        "column": 1,
+        "type": "window",
+        "status": "available",
+        "price": 250
+      },
+      {
+        "id": "f-7B",
+        "label": "7B",
+        "row": 7,
+        "column": 2,
+        "type": "middle",
+        "status": "occupied",
+        "price": 0
+      },
+      {
+        "id": "f-7C",
+        "label": "7C",
+        "row": 7,
+        "column": 3,
+        "type": "aisle",
+        "status": "available",
+        "price": 200
+      },
+      {
+        "id": "f-7D",
+        "label": "7D",
+        "row": 7,
+        "column": 4,
+        "type": "aisle",
+        "status": "available",
+        "price": 200
+      },
+      {
+        "id": "f-7E",
+        "label": "7E",
+        "row": 7,
+        "column": 5,
+        "type": "middle",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "f-7F",
+        "label": "7F",
+        "row": 7,
+        "column": 6,
+        "type": "window",
+        "status": "available",
+        "price": 250
+      },
+      {
+        "id": "f-8A",
+        "label": "8A",
+        "row": 8,
+        "column": 1,
+        "type": "window",
+        "status": "available",
+        "price": 250
+      },
+      {
+        "id": "f-8B",
+        "label": "8B",
+        "row": 8,
+        "column": 2,
+        "type": "middle",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "f-8C",
+        "label": "8C",
+        "row": 8,
+        "column": 3,
+        "type": "aisle",
+        "status": "occupied",
+        "price": 200
+      },
+      {
+        "id": "f-8D",
+        "label": "8D",
+        "row": 8,
+        "column": 4,
+        "type": "aisle",
+        "status": "occupied",
+        "price": 200
+      },
+      {
+        "id": "f-8E",
+        "label": "8E",
+        "row": 8,
+        "column": 5,
+        "type": "middle",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "f-8F",
+        "label": "8F",
+        "row": 8,
+        "column": 6,
+        "type": "window",
+        "status": "available",
+        "price": 250
+      }
+    ]
+  },
+  {
+    "id": "flight-business-2x2",
+    "transportMode": "aircraft",
+    "name": "Boeing 737 Business Class (2-2)",
+    "description": "Premium wide recliner seats with ample personal space",
+    "rows": 4,
+    "columns": 4,
+    "demoData": true,
+    "seats": [
+      {
+        "id": "fb-1A",
+        "label": "1A",
+        "row": 1,
+        "column": 1,
+        "type": "premium_seat",
+        "status": "occupied",
+        "price": 0,
+        "features": [
+          "Recliner",
+          "Power Socket"
+        ]
+      },
+      {
+        "id": "fb-1C",
+        "label": "1C",
+        "row": 1,
+        "column": 2,
+        "type": "aisle",
+        "status": "available",
+        "price": 0,
+        "features": [
+          "Recliner",
+          "Power Socket"
+        ]
+      },
+      {
+        "id": "fb-1D",
+        "label": "1D",
+        "row": 1,
+        "column": 3,
+        "type": "aisle",
+        "status": "available",
+        "price": 0,
+        "features": [
+          "Recliner",
+          "Power Socket"
+        ]
+      },
+      {
+        "id": "fb-1F",
+        "label": "1F",
+        "row": 1,
+        "column": 4,
+        "type": "premium_seat",
+        "status": "available",
+        "price": 0,
+        "features": [
+          "Recliner",
+          "Power Socket"
+        ]
+      },
+      {
+        "id": "fb-2A",
+        "label": "2A",
+        "row": 2,
+        "column": 1,
+        "type": "premium_seat",
+        "status": "available",
+        "price": 0,
+        "features": [
+          "Recliner",
+          "Power Socket"
+        ]
+      },
+      {
+        "id": "fb-2C",
+        "label": "2C",
+        "row": 2,
+        "column": 2,
+        "type": "aisle",
+        "status": "occupied",
+        "price": 0,
+        "features": [
+          "Recliner",
+          "Power Socket"
+        ]
+      },
+      {
+        "id": "fb-2D",
+        "label": "2D",
+        "row": 2,
+        "column": 3,
+        "type": "aisle",
+        "status": "available",
+        "price": 0,
+        "features": [
+          "Recliner",
+          "Power Socket"
+        ]
+      },
+      {
+        "id": "fb-2F",
+        "label": "2F",
+        "row": 2,
+        "column": 4,
+        "type": "premium_seat",
+        "status": "available",
+        "price": 0,
+        "features": [
+          "Recliner",
+          "Power Socket"
+        ]
+      },
+      {
+        "id": "fb-3A",
+        "label": "3A",
+        "row": 3,
+        "column": 1,
+        "type": "premium_seat",
+        "status": "available",
+        "price": 0,
+        "features": [
+          "Recliner",
+          "Power Socket"
+        ]
+      },
+      {
+        "id": "fb-3C",
+        "label": "3C",
+        "row": 3,
+        "column": 2,
+        "type": "aisle",
+        "status": "available",
+        "price": 0,
+        "features": [
+          "Recliner",
+          "Power Socket"
+        ]
+      },
+      {
+        "id": "fb-3D",
+        "label": "3D",
+        "row": 3,
+        "column": 3,
+        "type": "aisle",
+        "status": "available",
+        "price": 0,
+        "features": [
+          "Recliner",
+          "Power Socket"
+        ]
+      },
+      {
+        "id": "fb-3F",
+        "label": "3F",
+        "row": 3,
+        "column": 4,
+        "type": "premium_seat",
+        "status": "occupied",
+        "price": 0,
+        "features": [
+          "Recliner",
+          "Power Socket"
+        ]
+      },
+      {
+        "id": "fb-4A",
+        "label": "4A",
+        "row": 4,
+        "column": 1,
+        "type": "premium_seat",
+        "status": "available",
+        "price": 0,
+        "features": [
+          "Recliner",
+          "Power Socket"
+        ]
+      },
+      {
+        "id": "fb-4C",
+        "label": "4C",
+        "row": 4,
+        "column": 2,
+        "type": "aisle",
+        "status": "available",
+        "price": 0,
+        "features": [
+          "Recliner",
+          "Power Socket"
+        ]
+      },
+      {
+        "id": "fb-4D",
+        "label": "4D",
+        "row": 4,
+        "column": 3,
+        "type": "aisle",
+        "status": "available",
+        "price": 0,
+        "features": [
+          "Recliner",
+          "Power Socket"
+        ]
+      },
+      {
+        "id": "fb-4F",
+        "label": "4F",
+        "row": 4,
+        "column": 4,
+        "type": "premium_seat",
+        "status": "available",
+        "price": 0,
+        "features": [
+          "Recliner",
+          "Power Socket"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "flight-economy-3x3x3",
+    "transportMode": "aircraft",
+    "name": "Boeing 787 Dreamliner (3-3-3)",
+    "description": "Twin aisle international configuration",
+    "rows": 4,
+    "columns": 9,
+    "demoData": true,
+    "seats": [
+      {
+        "id": "w-10A",
+        "label": "10A",
+        "row": 1,
+        "column": 1,
+        "type": "window",
+        "status": "occupied",
+        "price": 600
+      },
+      {
+        "id": "w-10B",
+        "label": "10B",
+        "row": 1,
+        "column": 2,
+        "type": "middle",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "w-10C",
+        "label": "10C",
+        "row": 1,
+        "column": 3,
+        "type": "aisle",
+        "status": "available",
+        "price": 400
+      },
+      {
+        "id": "w-10D",
+        "label": "10D",
+        "row": 1,
+        "column": 4,
+        "type": "aisle",
+        "status": "available",
+        "price": 400
+      },
+      {
+        "id": "w-10E",
+        "label": "10E",
+        "row": 1,
+        "column": 5,
+        "type": "middle",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "w-10F",
+        "label": "10F",
+        "row": 1,
+        "column": 6,
+        "type": "aisle",
+        "status": "occupied",
+        "price": 400
+      },
+      {
+        "id": "w-10G",
+        "label": "10G",
+        "row": 1,
+        "column": 7,
+        "type": "aisle",
+        "status": "available",
+        "price": 400
+      },
+      {
+        "id": "w-10H",
+        "label": "10H",
+        "row": 1,
+        "column": 8,
+        "type": "middle",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "w-10J",
+        "label": "10J",
+        "row": 1,
+        "column": 9,
+        "type": "window",
+        "status": "available",
+        "price": 600
+      },
+      {
+        "id": "w-11A",
+        "label": "11A",
+        "row": 2,
+        "column": 1,
+        "type": "window",
+        "status": "available",
+        "price": 600
+      },
+      {
+        "id": "w-11B",
+        "label": "11B",
+        "row": 2,
+        "column": 2,
+        "type": "middle",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "w-11C",
+        "label": "11C",
+        "row": 2,
+        "column": 3,
+        "type": "aisle",
+        "status": "available",
+        "price": 400
+      },
+      {
+        "id": "w-11D",
+        "label": "11D",
+        "row": 2,
+        "column": 4,
+        "type": "aisle",
+        "status": "occupied",
+        "price": 400
+      },
+      {
+        "id": "w-11E",
+        "label": "11E",
+        "row": 2,
+        "column": 5,
+        "type": "middle",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "w-11F",
+        "label": "11F",
+        "row": 2,
+        "column": 6,
+        "type": "aisle",
+        "status": "available",
+        "price": 400
+      },
+      {
+        "id": "w-11G",
+        "label": "11G",
+        "row": 2,
+        "column": 7,
+        "type": "aisle",
+        "status": "available",
+        "price": 400
+      },
+      {
+        "id": "w-11H",
+        "label": "11H",
+        "row": 2,
+        "column": 8,
+        "type": "middle",
+        "status": "occupied",
+        "price": 0
+      },
+      {
+        "id": "w-11J",
+        "label": "11J",
+        "row": 2,
+        "column": 9,
+        "type": "window",
+        "status": "available",
+        "price": 600
+      }
+    ]
+  },
+  {
+    "id": "flight-mixed-layout",
+    "transportMode": "aircraft",
+    "name": "Domestic Premium Mixed Layout",
+    "description": "Combined premium economy and standard cabin",
+    "rows": 4,
+    "columns": 6,
+    "demoData": true,
+    "seats": [
+      {
+        "id": "fm-1A",
+        "label": "1A",
+        "row": 1,
+        "column": 1,
+        "type": "premium_seat",
+        "status": "available",
+        "price": 800
+      },
+      {
+        "id": "fm-1B",
+        "label": "1B",
+        "row": 1,
+        "column": 2,
+        "type": "premium_seat",
+        "status": "available",
+        "price": 700
+      },
+      {
+        "id": "fm-1C",
+        "label": "1C",
+        "row": 1,
+        "column": 3,
+        "type": "premium_seat",
+        "status": "occupied",
+        "price": 800
+      },
+      {
+        "id": "fm-1D",
+        "label": "1D",
+        "row": 1,
+        "column": 4,
+        "type": "premium_seat",
+        "status": "available",
+        "price": 800
+      },
+      {
+        "id": "fm-1E",
+        "label": "1E",
+        "row": 1,
+        "column": 5,
+        "type": "premium_seat",
+        "status": "available",
+        "price": 700
+      },
+      {
+        "id": "fm-1F",
+        "label": "1F",
+        "row": 1,
+        "column": 6,
+        "type": "premium_seat",
+        "status": "available",
+        "price": 800
+      },
+      {
+        "id": "fm-2A",
+        "label": "2A",
+        "row": 2,
+        "column": 1,
+        "type": "window",
+        "status": "available",
+        "price": 200
+      },
+      {
+        "id": "fm-2B",
+        "label": "2B",
+        "row": 2,
+        "column": 2,
+        "type": "middle",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "fm-2C",
+        "label": "2C",
+        "row": 2,
+        "column": 3,
+        "type": "aisle",
+        "status": "available",
+        "price": 150
+      },
+      {
+        "id": "fm-2D",
+        "label": "2D",
+        "row": 2,
+        "column": 4,
+        "type": "aisle",
+        "status": "available",
+        "price": 150
+      },
+      {
+        "id": "fm-2E",
+        "label": "2E",
+        "row": 2,
+        "column": 5,
+        "type": "middle",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "fm-2F",
+        "label": "2F",
+        "row": 2,
+        "column": 6,
+        "type": "window",
+        "status": "occupied",
+        "price": 200
+      }
+    ]
+  },
+  {
+    "id": "train-chair-layout-001",
+    "transportMode": "train",
+    "name": "Vande Bharat Chair Car (CC)",
+    "description": "3+2 Aerodynamic Reclining Seats with USB Charging",
+    "rows": 6,
+    "columns": 5,
+    "coachType": "CC",
+    "demoData": true,
+    "seats": [
+      {
+        "id": "tcc-1",
+        "label": "01",
+        "row": 1,
+        "column": 1,
+        "type": "window",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "tcc-2",
+        "label": "02",
+        "row": 1,
+        "column": 2,
+        "type": "middle",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "tcc-3",
+        "label": "03",
+        "row": 1,
+        "column": 3,
+        "type": "aisle",
+        "status": "occupied",
+        "price": 0
+      },
+      {
+        "id": "tcc-4",
+        "label": "04",
+        "row": 1,
+        "column": 4,
+        "type": "aisle",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "tcc-5",
+        "label": "05",
+        "row": 1,
+        "column": 5,
+        "type": "window",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "tcc-6",
+        "label": "06",
+        "row": 2,
+        "column": 1,
+        "type": "window",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "tcc-7",
+        "label": "07",
+        "row": 2,
+        "column": 2,
+        "type": "middle",
+        "status": "occupied",
+        "price": 0
+      },
+      {
+        "id": "tcc-8",
+        "label": "08",
+        "row": 2,
+        "column": 3,
+        "type": "aisle",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "tcc-9",
+        "label": "09",
+        "row": 2,
+        "column": 4,
+        "type": "aisle",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "tcc-10",
+        "label": "10",
+        "row": 2,
+        "column": 5,
+        "type": "window",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "tcc-11",
+        "label": "11",
+        "row": 3,
+        "column": 1,
+        "type": "window",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "tcc-12",
+        "label": "12",
+        "row": 3,
+        "column": 2,
+        "type": "middle",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "tcc-13",
+        "label": "13",
+        "row": 3,
+        "column": 3,
+        "type": "aisle",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "tcc-14",
+        "label": "14",
+        "row": 3,
+        "column": 4,
+        "type": "aisle",
+        "status": "occupied",
+        "price": 0
+      },
+      {
+        "id": "tcc-15",
+        "label": "15",
+        "row": 3,
+        "column": 5,
+        "type": "window",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "tcc-16",
+        "label": "16",
+        "row": 4,
+        "column": 1,
+        "type": "window",
+        "status": "occupied",
+        "price": 0
+      },
+      {
+        "id": "tcc-17",
+        "label": "17",
+        "row": 4,
+        "column": 2,
+        "type": "middle",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "tcc-18",
+        "label": "18",
+        "row": 4,
+        "column": 3,
+        "type": "aisle",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "tcc-19",
+        "label": "19",
+        "row": 4,
+        "column": 4,
+        "type": "aisle",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "tcc-20",
+        "label": "20",
+        "row": 4,
+        "column": 5,
+        "type": "window",
+        "status": "available",
+        "price": 0
+      }
+    ]
+  },
+  {
+    "id": "train-executive-layout-001",
+    "transportMode": "train",
+    "name": "Executive Chair Car (EC)",
+    "description": "2+2 Luxury 180-degree Rotating Seats",
+    "rows": 4,
+    "columns": 4,
+    "coachType": "EC",
+    "demoData": true,
+    "seats": [
+      {
+        "id": "tec-1",
+        "label": "E01",
+        "row": 1,
+        "column": 1,
+        "type": "window",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "tec-2",
+        "label": "E02",
+        "row": 1,
+        "column": 2,
+        "type": "aisle",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "tec-3",
+        "label": "E03",
+        "row": 1,
+        "column": 3,
+        "type": "aisle",
+        "status": "occupied",
+        "price": 0
+      },
+      {
+        "id": "tec-4",
+        "label": "E04",
+        "row": 1,
+        "column": 4,
+        "type": "window",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "tec-5",
+        "label": "E05",
+        "row": 2,
+        "column": 1,
+        "type": "window",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "tec-6",
+        "label": "E06",
+        "row": 2,
+        "column": 2,
+        "type": "aisle",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "tec-7",
+        "label": "E07",
+        "row": 2,
+        "column": 3,
+        "type": "aisle",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "tec-8",
+        "label": "E08",
+        "row": 2,
+        "column": 4,
+        "type": "window",
+        "status": "occupied",
+        "price": 0
+      },
+      {
+        "id": "tec-9",
+        "label": "E09",
+        "row": 3,
+        "column": 1,
+        "type": "window",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "tec-10",
+        "label": "E10",
+        "row": 3,
+        "column": 2,
+        "type": "aisle",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "tec-11",
+        "label": "E11",
+        "row": 3,
+        "column": 3,
+        "type": "aisle",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "tec-12",
+        "label": "E12",
+        "row": 3,
+        "column": 4,
+        "type": "window",
+        "status": "available",
+        "price": 0
+      }
+    ]
+  },
+  {
+    "id": "train-3a-layout-001",
+    "transportMode": "train",
+    "name": "AC 3-Tier Sleeper (3A)",
+    "description": "Compartment with 6 Main Berths and 2 Side Berths",
+    "rows": 4,
+    "columns": 8,
+    "coachType": "3A",
+    "demoData": true,
+    "seats": [
+      {
+        "id": "t3a-1",
+        "label": "01 LB",
+        "row": 1,
+        "column": 1,
+        "type": "lower_berth",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "t3a-2",
+        "label": "02 MB",
+        "row": 1,
+        "column": 2,
+        "type": "middle_berth",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "t3a-3",
+        "label": "03 UB",
+        "row": 1,
+        "column": 3,
+        "type": "upper_berth",
+        "status": "occupied",
+        "price": 0
+      },
+      {
+        "id": "t3a-4",
+        "label": "04 LB",
+        "row": 1,
+        "column": 4,
+        "type": "lower_berth",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "t3a-5",
+        "label": "05 MB",
+        "row": 1,
+        "column": 5,
+        "type": "middle_berth",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "t3a-6",
+        "label": "06 UB",
+        "row": 1,
+        "column": 6,
+        "type": "upper_berth",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "t3a-7",
+        "label": "07 SL",
+        "row": 1,
+        "column": 7,
+        "type": "side_lower_berth",
+        "status": "occupied",
+        "price": 0
+      },
+      {
+        "id": "t3a-8",
+        "label": "08 SU",
+        "row": 1,
+        "column": 8,
+        "type": "side_upper_berth",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "t3a-9",
+        "label": "09 LB",
+        "row": 2,
+        "column": 1,
+        "type": "lower_berth",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "t3a-10",
+        "label": "10 MB",
+        "row": 2,
+        "column": 2,
+        "type": "middle_berth",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "t3a-11",
+        "label": "11 UB",
+        "row": 2,
+        "column": 3,
+        "type": "upper_berth",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "t3a-12",
+        "label": "12 LB",
+        "row": 2,
+        "column": 4,
+        "type": "lower_berth",
+        "status": "occupied",
+        "price": 0
+      },
+      {
+        "id": "t3a-13",
+        "label": "13 MB",
+        "row": 2,
+        "column": 5,
+        "type": "middle_berth",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "t3a-14",
+        "label": "14 UB",
+        "row": 2,
+        "column": 6,
+        "type": "upper_berth",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "t3a-15",
+        "label": "15 SL",
+        "row": 2,
+        "column": 7,
+        "type": "side_lower_berth",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "t3a-16",
+        "label": "16 SU",
+        "row": 2,
+        "column": 8,
+        "type": "side_upper_berth",
+        "status": "available",
+        "price": 0
+      }
+    ]
+  },
+  {
+    "id": "train-sleeper-layout-001",
+    "transportMode": "train",
+    "name": "Sleeper Class (SL)",
+    "description": "Standard Non-AC Indian Railway Sleeper Coach",
+    "rows": 2,
+    "columns": 8,
+    "coachType": "SL",
+    "demoData": true,
+    "seats": [
+      {
+        "id": "tsl-1",
+        "label": "01 LB",
+        "row": 1,
+        "column": 1,
+        "type": "lower_berth",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "tsl-2",
+        "label": "02 MB",
+        "row": 1,
+        "column": 2,
+        "type": "middle_berth",
+        "status": "occupied",
+        "price": 0
+      },
+      {
+        "id": "tsl-3",
+        "label": "03 UB",
+        "row": 1,
+        "column": 3,
+        "type": "upper_berth",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "tsl-4",
+        "label": "04 LB",
+        "row": 1,
+        "column": 4,
+        "type": "lower_berth",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "tsl-5",
+        "label": "05 MB",
+        "row": 1,
+        "column": 5,
+        "type": "middle_berth",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "tsl-6",
+        "label": "06 UB",
+        "row": 1,
+        "column": 6,
+        "type": "upper_berth",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "tsl-7",
+        "label": "07 SL",
+        "row": 1,
+        "column": 7,
+        "type": "side_lower_berth",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "tsl-8",
+        "label": "08 SU",
+        "row": 1,
+        "column": 8,
+        "type": "side_upper_berth",
+        "status": "occupied",
+        "price": 0
+      }
+    ]
+  },
+  {
+    "id": "bus-seater-2x2",
+    "transportMode": "bus",
+    "name": "Standard AC Seater (2+2)",
+    "description": "Comfortable 2+2 pushback seating arrangement",
+    "rows": 7,
+    "columns": 4,
+    "demoData": true,
+    "seats": [
+      {
+        "id": "bs-1",
+        "label": "1",
+        "row": 1,
+        "column": 1,
+        "type": "window",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "bs-2",
+        "label": "2",
+        "row": 1,
+        "column": 2,
+        "type": "aisle",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "bs-3",
+        "label": "3",
+        "row": 1,
+        "column": 3,
+        "type": "aisle",
+        "status": "occupied",
+        "price": 0,
+        "isFemaleOnly": true,
+        "features": [
+          "ladies_only"
+        ]
+      },
+      {
+        "id": "bs-4",
+        "label": "4",
+        "row": 1,
+        "column": 4,
+        "type": "window",
+        "status": "available",
+        "price": 0,
+        "isFemaleOnly": true,
+        "features": [
+          "ladies_only"
+        ]
+      },
+      {
+        "id": "bs-5",
+        "label": "5",
+        "row": 2,
+        "column": 1,
+        "type": "window",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "bs-6",
+        "label": "6",
+        "row": 2,
+        "column": 2,
+        "type": "aisle",
+        "status": "occupied",
+        "price": 0
+      },
+      {
+        "id": "bs-7",
+        "label": "7",
+        "row": 2,
+        "column": 3,
+        "type": "aisle",
+        "status": "available",
+        "price": 0,
+        "isFemaleOnly": true,
+        "features": [
+          "ladies_only"
+        ]
+      },
+      {
+        "id": "bs-8",
+        "label": "8",
+        "row": 2,
+        "column": 4,
+        "type": "window",
+        "status": "available",
+        "price": 0,
+        "isFemaleOnly": true,
+        "features": [
+          "ladies_only"
+        ]
+      },
+      {
+        "id": "bs-9",
+        "label": "9",
+        "row": 3,
+        "column": 1,
+        "type": "window",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "bs-10",
+        "label": "10",
+        "row": 3,
+        "column": 2,
+        "type": "aisle",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "bs-11",
+        "label": "11",
+        "row": 3,
+        "column": 3,
+        "type": "aisle",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "bs-12",
+        "label": "12",
+        "row": 3,
+        "column": 4,
+        "type": "window",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "bs-13",
+        "label": "13",
+        "row": 4,
+        "column": 1,
+        "type": "window",
+        "status": "occupied",
+        "price": 0
+      },
+      {
+        "id": "bs-14",
+        "label": "14",
+        "row": 4,
+        "column": 2,
+        "type": "aisle",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "bs-15",
+        "label": "15",
+        "row": 4,
+        "column": 3,
+        "type": "aisle",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "bs-16",
+        "label": "16",
+        "row": 4,
+        "column": 4,
+        "type": "window",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "bs-17",
+        "label": "17",
+        "row": 5,
+        "column": 1,
+        "type": "window",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "bs-18",
+        "label": "18",
+        "row": 5,
+        "column": 2,
+        "type": "aisle",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "bs-19",
+        "label": "19",
+        "row": 5,
+        "column": 3,
+        "type": "aisle",
+        "status": "occupied",
+        "price": 0
+      },
+      {
+        "id": "bs-20",
+        "label": "20",
+        "row": 5,
+        "column": 4,
+        "type": "window",
+        "status": "available",
+        "price": 0
+      }
+    ]
+  },
+  {
+    "id": "bus-sleeper-upper-lower",
+    "transportMode": "bus",
+    "name": "Luxury Multi-Axle Sleeper (Upper / Lower)",
+    "description": "Double deck luxury berths (1+2 layout)",
+    "rows": 4,
+    "columns": 3,
+    "decks": 2,
+    "demoData": true,
+    "seats": [
+      {
+        "id": "bsl-L1",
+        "label": "L1",
+        "row": 1,
+        "column": 1,
+        "deck": "lower",
+        "type": "sleeper_berth",
+        "status": "available",
+        "price": 100
+      },
+      {
+        "id": "bsl-L2",
+        "label": "L2",
+        "row": 1,
+        "column": 2,
+        "deck": "lower",
+        "type": "sleeper_berth",
+        "status": "occupied",
+        "price": 100
+      },
+      {
+        "id": "bsl-L3",
+        "label": "L3",
+        "row": 1,
+        "column": 3,
+        "deck": "lower",
+        "type": "sleeper_berth",
+        "status": "available",
+        "price": 100,
+        "isFemaleOnly": true,
+        "features": [
+          "ladies_only"
+        ]
+      },
+      {
+        "id": "bsl-L4",
+        "label": "L4",
+        "row": 2,
+        "column": 1,
+        "deck": "lower",
+        "type": "sleeper_berth",
+        "status": "available",
+        "price": 100,
+        "isFemaleOnly": true,
+        "features": [
+          "ladies_only"
+        ]
+      },
+      {
+        "id": "bsl-L5",
+        "label": "L5",
+        "row": 2,
+        "column": 2,
+        "deck": "lower",
+        "type": "sleeper_berth",
+        "status": "available",
+        "price": 100
+      },
+      {
+        "id": "bsl-L6",
+        "label": "L6",
+        "row": 2,
+        "column": 3,
+        "deck": "lower",
+        "type": "sleeper_berth",
+        "status": "available",
+        "price": 100
+      },
+      {
+        "id": "bsl-U1",
+        "label": "U1",
+        "row": 1,
+        "column": 1,
+        "deck": "upper",
+        "type": "sleeper_berth",
+        "status": "available",
+        "price": 150
+      },
+      {
+        "id": "bsl-U2",
+        "label": "U2",
+        "row": 1,
+        "column": 2,
+        "deck": "upper",
+        "type": "sleeper_berth",
+        "status": "available",
+        "price": 150
+      },
+      {
+        "id": "bsl-U3",
+        "label": "U3",
+        "row": 1,
+        "column": 3,
+        "deck": "upper",
+        "type": "sleeper_berth",
+        "status": "occupied",
+        "price": 150
+      },
+      {
+        "id": "bsl-U4",
+        "label": "U4",
+        "row": 2,
+        "column": 1,
+        "deck": "upper",
+        "type": "sleeper_berth",
+        "status": "available",
+        "price": 150
+      },
+      {
+        "id": "bsl-U5",
+        "label": "U5",
+        "row": 2,
+        "column": 2,
+        "deck": "upper",
+        "type": "sleeper_berth",
+        "status": "occupied",
+        "price": 150
+      },
+      {
+        "id": "bsl-U6",
+        "label": "U6",
+        "row": 2,
+        "column": 3,
+        "deck": "upper",
+        "type": "sleeper_berth",
+        "status": "available",
+        "price": 150
+      }
+    ]
+  },
+  {
+    "id": "bus-seater-2x1",
+    "transportMode": "bus",
+    "name": "Executive Volvo 2+1 Seater",
+    "description": "Spacious single and couple seats with personal calf support",
+    "rows": 5,
+    "columns": 3,
+    "demoData": true,
+    "seats": [
+      {
+        "id": "b21-1",
+        "label": "1",
+        "row": 1,
+        "column": 1,
+        "type": "window",
+        "status": "available",
+        "price": 50
+      },
+      {
+        "id": "b21-2",
+        "label": "2",
+        "row": 1,
+        "column": 2,
+        "type": "aisle",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "b21-3",
+        "label": "3",
+        "row": 1,
+        "column": 3,
+        "type": "window",
+        "status": "occupied",
+        "price": 100,
+        "isFemaleOnly": true,
+        "features": [
+          "ladies_only"
+        ]
+      },
+      {
+        "id": "b21-4",
+        "label": "4",
+        "row": 2,
+        "column": 1,
+        "type": "window",
+        "status": "available",
+        "price": 50,
+        "isFemaleOnly": true,
+        "features": [
+          "ladies_only"
+        ]
+      },
+      {
+        "id": "b21-5",
+        "label": "5",
+        "row": 2,
+        "column": 2,
+        "type": "aisle",
+        "status": "occupied",
+        "price": 0
+      },
+      {
+        "id": "b21-6",
+        "label": "6",
+        "row": 2,
+        "column": 3,
+        "type": "window",
+        "status": "available",
+        "price": 100
+      },
+      {
+        "id": "b21-7",
+        "label": "7",
+        "row": 3,
+        "column": 1,
+        "type": "window",
+        "status": "available",
+        "price": 50,
+        "isFemaleOnly": true,
+        "features": [
+          "ladies_only"
+        ]
+      },
+      {
+        "id": "b21-8",
+        "label": "8",
+        "row": 3,
+        "column": 2,
+        "type": "aisle",
+        "status": "available",
+        "price": 0,
+        "isFemaleOnly": true,
+        "features": [
+          "ladies_only"
+        ]
+      },
+      {
+        "id": "b21-9",
+        "label": "9",
+        "row": 3,
+        "column": 3,
+        "type": "window",
+        "status": "available",
+        "price": 100
+      }
+    ]
+  },
+  {
+    "id": "bus-semi-sleeper-2x2",
+    "transportMode": "bus",
+    "name": "BharatBenz AC Semi-Sleeper",
+    "description": "Ergonomic 140-degree incline seating with charging points",
+    "rows": 4,
+    "columns": 4,
+    "demoData": true,
+    "seats": [
+      {
+        "id": "bss-1",
+        "label": "1",
+        "row": 1,
+        "column": 1,
+        "type": "window",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "bss-2",
+        "label": "2",
+        "row": 1,
+        "column": 2,
+        "type": "aisle",
+        "status": "occupied",
+        "price": 0
+      },
+      {
+        "id": "bss-3",
+        "label": "3",
+        "row": 1,
+        "column": 3,
+        "type": "aisle",
+        "status": "available",
+        "price": 0,
+        "isFemaleOnly": true,
+        "features": [
+          "ladies_only"
+        ]
+      },
+      {
+        "id": "bss-4",
+        "label": "4",
+        "row": 1,
+        "column": 4,
+        "type": "window",
+        "status": "available",
+        "price": 0,
+        "isFemaleOnly": true,
+        "features": [
+          "ladies_only"
+        ]
+      },
+      {
+        "id": "bss-5",
+        "label": "5",
+        "row": 2,
+        "column": 1,
+        "type": "window",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "bss-6",
+        "label": "6",
+        "row": 2,
+        "column": 2,
+        "type": "aisle",
+        "status": "available",
+        "price": 0
+      },
+      {
+        "id": "bss-7",
+        "label": "7",
+        "row": 2,
+        "column": 3,
+        "type": "aisle",
+        "status": "available",
+        "price": 0,
+        "isFemaleOnly": true,
+        "features": [
+          "ladies_only"
+        ]
+      },
+      {
+        "id": "bss-8",
+        "label": "8",
+        "row": 2,
+        "column": 4,
+        "type": "window",
+        "status": "occupied",
+        "price": 0,
+        "isFemaleOnly": true,
+        "features": [
+          "ladies_only"
+        ]
+      }
+    ]
+  }
+]

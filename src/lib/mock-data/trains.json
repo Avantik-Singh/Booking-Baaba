@@ -1,0 +1,761 @@
+[
+  {
+    "id": "train-demo-001",
+    "trainNumber": "22436",
+    "trainName": "Vande Bharat Express",
+    "category": "Vande Bharat",
+    "routeId": "route-train-del-var",
+    "originStationId": "station-ndls",
+    "destinationStationId": "station-bsb",
+    "departureTime": "06:00",
+    "arrivalTime": "14:00",
+    "durationMinutes": 480,
+    "runningDays": [0, 1, 2, 4, 5, 6],
+    "classes": [
+      {
+        "classCode": "CC",
+        "className": "AC Chair Car",
+        "fare": 1750,
+        "status": "AVAILABLE",
+        "availableCount": 42,
+        "seatLayoutId": "train-chair-layout-001"
+      },
+      {
+        "classCode": "EC",
+        "className": "Exec. Chair Car",
+        "fare": 3300,
+        "status": "AVAILABLE",
+        "availableCount": 12,
+        "seatLayoutId": "train-executive-layout-001"
+      }
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Bio-vacuum Toilets",
+      "Pantry Onboard",
+      "Charging Sockets",
+      "CCTV"
+    ],
+    "demoData": true
+  },
+  {
+    "id": "train-demo-002",
+    "trainNumber": "22435",
+    "trainName": "Vande Bharat Express",
+    "category": "Vande Bharat",
+    "routeId": "route-train-var-del",
+    "originStationId": "station-bsb",
+    "destinationStationId": "station-ndls",
+    "departureTime": "15:00",
+    "arrivalTime": "23:00",
+    "durationMinutes": 480,
+    "runningDays": [0, 1, 2, 4, 5, 6],
+    "classes": [
+      {
+        "classCode": "CC",
+        "className": "AC Chair Car",
+        "fare": 1750,
+        "status": "AVAILABLE",
+        "availableCount": 26,
+        "seatLayoutId": "train-chair-layout-001"
+      },
+      {
+        "classCode": "EC",
+        "className": "Exec. Chair Car",
+        "fare": 3300,
+        "status": "RAC",
+        "availableCount": 4,
+        "seatLayoutId": "train-executive-layout-001"
+      }
+    ],
+    "amenities": ["Wi-Fi", "Pantry Onboard", "Charging Sockets", "CCTV"],
+    "demoData": true
+  },
+  {
+    "id": "train-demo-003",
+    "trainNumber": "12952",
+    "trainName": "Mumbai Rajdhani Express",
+    "category": "Rajdhani",
+    "routeId": "route-train-del-bom",
+    "originStationId": "station-ndls",
+    "destinationStationId": "station-mmct",
+    "departureTime": "16:55",
+    "arrivalTime": "08:35",
+    "durationMinutes": 940,
+    "runningDays": [0, 1, 2, 3, 4, 5, 6],
+    "classes": [
+      {
+        "classCode": "3A",
+        "className": "AC 3 Tier",
+        "fare": 2420,
+        "status": "AVAILABLE",
+        "availableCount": 84,
+        "seatLayoutId": "train-3a-layout-001"
+      },
+      {
+        "classCode": "2A",
+        "className": "AC 2 Tier",
+        "fare": 3480,
+        "status": "AVAILABLE",
+        "availableCount": 18,
+        "seatLayoutId": "train-3a-layout-001"
+      },
+      {
+        "classCode": "1A",
+        "className": "AC First Class",
+        "fare": 5120,
+        "status": "AVAILABLE",
+        "availableCount": 6,
+        "seatLayoutId": "train-executive-layout-001"
+      }
+    ],
+    "amenities": [
+      "Complimentary Meals",
+      "Clean Bedroll",
+      "Charging Outlets",
+      "Reading Lights"
+    ],
+    "demoData": true
+  },
+  {
+    "id": "train-demo-004",
+    "trainNumber": "12951",
+    "trainName": "Tejas Rajdhani Express",
+    "category": "Rajdhani",
+    "routeId": "route-train-bom-del",
+    "originStationId": "station-mmct",
+    "destinationStationId": "station-ndls",
+    "departureTime": "17:00",
+    "arrivalTime": "08:32",
+    "durationMinutes": 932,
+    "runningDays": [0, 1, 2, 3, 4, 5, 6],
+    "classes": [
+      {
+        "classCode": "3A",
+        "className": "AC 3 Tier",
+        "fare": 2420,
+        "status": "AVAILABLE",
+        "availableCount": 62,
+        "seatLayoutId": "train-3a-layout-001"
+      },
+      {
+        "classCode": "2A",
+        "className": "AC 2 Tier",
+        "fare": 3480,
+        "status": "RAC",
+        "availableCount": 5,
+        "seatLayoutId": "train-3a-layout-001"
+      },
+      {
+        "classCode": "1A",
+        "className": "AC First Class",
+        "fare": 5120,
+        "status": "AVAILABLE",
+        "availableCount": 4,
+        "seatLayoutId": "train-executive-layout-001"
+      }
+    ],
+    "amenities": [
+      "Automatic Doors",
+      "Smart Bio-Toilets",
+      "Onboard Meals",
+      "Reading Light"
+    ],
+    "demoData": true
+  },
+  {
+    "id": "train-demo-005",
+    "trainNumber": "12004",
+    "trainName": "Lucknow Shatabdi Express",
+    "category": "Shatabdi",
+    "routeId": "route-train-del-lko",
+    "originStationId": "station-ndls",
+    "destinationStationId": "station-lko",
+    "departureTime": "06:10",
+    "arrivalTime": "12:40",
+    "durationMinutes": 390,
+    "runningDays": [0, 1, 2, 3, 4, 5, 6],
+    "classes": [
+      {
+        "classCode": "CC",
+        "className": "AC Chair Car",
+        "fare": 1165,
+        "status": "AVAILABLE",
+        "availableCount": 110,
+        "seatLayoutId": "train-chair-layout-001"
+      },
+      {
+        "classCode": "EC",
+        "className": "Executive Chair Car",
+        "fare": 2125,
+        "status": "AVAILABLE",
+        "availableCount": 16,
+        "seatLayoutId": "train-executive-layout-001"
+      }
+    ],
+    "amenities": [
+      "Breakfast / Snacks",
+      "Newspaper",
+      "Comfortable Seating",
+      "CCTV"
+    ],
+    "demoData": true
+  },
+  {
+    "id": "train-demo-006",
+    "trainNumber": "12015",
+    "trainName": "Ajmer Shatabdi Express",
+    "category": "Shatabdi",
+    "routeId": "route-train-del-jp",
+    "originStationId": "station-ndls",
+    "destinationStationId": "station-jp",
+    "departureTime": "06:10",
+    "arrivalTime": "10:40",
+    "durationMinutes": 270,
+    "runningDays": [0, 1, 2, 3, 4, 5, 6],
+    "classes": [
+      {
+        "classCode": "CC",
+        "className": "AC Chair Car",
+        "fare": 990,
+        "status": "AVAILABLE",
+        "availableCount": 75,
+        "seatLayoutId": "train-chair-layout-001"
+      },
+      {
+        "classCode": "EC",
+        "className": "Executive Chair Car",
+        "fare": 1820,
+        "status": "AVAILABLE",
+        "availableCount": 8,
+        "seatLayoutId": "train-executive-layout-001"
+      }
+    ],
+    "amenities": ["Breakfast Included", "Air Conditioning", "Bottle Holders"],
+    "demoData": true
+  },
+  {
+    "id": "train-demo-007",
+    "trainNumber": "12246",
+    "trainName": "Yesvantpur Howrah Duronto",
+    "category": "Duronto",
+    "routeId": "route-train-del-hwh",
+    "originStationId": "station-ndls",
+    "destinationStationId": "station-hwh",
+    "departureTime": "11:00",
+    "arrivalTime": "04:00",
+    "durationMinutes": 1020,
+    "runningDays": [1, 2, 4, 5, 6],
+    "classes": [
+      {
+        "classCode": "SL",
+        "className": "Sleeper Class",
+        "fare": 740,
+        "status": "AVAILABLE",
+        "availableCount": 120,
+        "seatLayoutId": "train-sleeper-layout-001"
+      },
+      {
+        "classCode": "3A",
+        "className": "AC 3 Tier",
+        "fare": 1890,
+        "status": "AVAILABLE",
+        "availableCount": 55,
+        "seatLayoutId": "train-3a-layout-001"
+      },
+      {
+        "classCode": "2A",
+        "className": "AC 2 Tier",
+        "fare": 2730,
+        "status": "AVAILABLE",
+        "availableCount": 20,
+        "seatLayoutId": "train-3a-layout-001"
+      }
+    ],
+    "amenities": ["Non-Stop Service", "Pantry Services", "Linen Kit Provided"],
+    "demoData": true
+  },
+  {
+    "id": "train-demo-008",
+    "trainNumber": "20608",
+    "trainName": "Mysuru Vande Bharat",
+    "category": "Vande Bharat",
+    "routeId": "route-train-blr-che",
+    "originStationId": "station-sbc",
+    "destinationStationId": "station-mas",
+    "departureTime": "14:50",
+    "arrivalTime": "19:20",
+    "durationMinutes": 270,
+    "runningDays": [1, 2, 3, 4, 5, 6],
+    "classes": [
+      {
+        "classCode": "CC",
+        "className": "AC Chair Car",
+        "fare": 995,
+        "status": "AVAILABLE",
+        "availableCount": 90,
+        "seatLayoutId": "train-chair-layout-001"
+      },
+      {
+        "classCode": "EC",
+        "className": "Executive Chair Car",
+        "fare": 1885,
+        "status": "AVAILABLE",
+        "availableCount": 14,
+        "seatLayoutId": "train-executive-layout-001"
+      }
+    ],
+    "amenities": [
+      "High Speed",
+      "Sound Proof Coaches",
+      "Infotainment Screen",
+      "Emergency Talkback"
+    ],
+    "demoData": true
+  },
+  {
+    "id": "train-demo-009",
+    "trainNumber": "20607",
+    "trainName": "Chennai Bengaluru Vande Bharat",
+    "category": "Vande Bharat",
+    "routeId": "route-train-che-blr",
+    "originStationId": "station-mas",
+    "destinationStationId": "station-sbc",
+    "departureTime": "05:50",
+    "arrivalTime": "10:20",
+    "durationMinutes": 270,
+    "runningDays": [1, 2, 3, 4, 5, 6],
+    "classes": [
+      {
+        "classCode": "CC",
+        "className": "AC Chair Car",
+        "fare": 995,
+        "status": "AVAILABLE",
+        "availableCount": 78,
+        "seatLayoutId": "train-chair-layout-001"
+      },
+      {
+        "classCode": "EC",
+        "className": "Executive Chair Car",
+        "fare": 1885,
+        "status": "AVAILABLE",
+        "availableCount": 10,
+        "seatLayoutId": "train-executive-layout-001"
+      }
+    ],
+    "amenities": ["Comfortable Headrests", "Clean Restrooms", "Snacks"],
+    "demoData": true
+  },
+  {
+    "id": "train-demo-010",
+    "trainNumber": "12640",
+    "trainName": "Brindavan Express",
+    "category": "Intercity Express",
+    "routeId": "route-train-blr-che",
+    "originStationId": "station-sbc",
+    "destinationStationId": "station-mas",
+    "departureTime": "15:10",
+    "arrivalTime": "21:15",
+    "durationMinutes": 365,
+    "runningDays": [0, 1, 2, 3, 4, 5, 6],
+    "classes": [
+      {
+        "classCode": "CC",
+        "className": "AC Chair Car",
+        "fare": 525,
+        "status": "AVAILABLE",
+        "availableCount": 65,
+        "seatLayoutId": "train-chair-layout-001"
+      }
+    ],
+    "amenities": ["Catering on demand", "Mobile Charging", "Day Travel"],
+    "demoData": true
+  },
+  {
+    "id": "train-demo-011",
+    "trainNumber": "20901",
+    "trainName": "Mumbai Gandhinagar Vande Bharat",
+    "category": "Vande Bharat",
+    "routeId": "route-train-bom-adi",
+    "originStationId": "station-mmct",
+    "destinationStationId": "station-adi",
+    "departureTime": "06:00",
+    "arrivalTime": "11:25",
+    "durationMinutes": 325,
+    "runningDays": [1, 2, 3, 4, 5, 6],
+    "classes": [
+      {
+        "classCode": "CC",
+        "className": "AC Chair Car",
+        "fare": 1420,
+        "status": "AVAILABLE",
+        "availableCount": 54,
+        "seatLayoutId": "train-chair-layout-001"
+      },
+      {
+        "classCode": "EC",
+        "className": "Executive Chair Car",
+        "fare": 2630,
+        "status": "AVAILABLE",
+        "availableCount": 8,
+        "seatLayoutId": "train-executive-layout-001"
+      }
+    ],
+    "amenities": ["Kavach Protection", "Rotatable Seats", "Hot Meals"],
+    "demoData": true
+  },
+  {
+    "id": "train-demo-012",
+    "trainNumber": "20902",
+    "trainName": "Ahmedabad Mumbai Vande Bharat",
+    "category": "Vande Bharat",
+    "routeId": "route-train-adi-bom",
+    "originStationId": "station-adi",
+    "destinationStationId": "station-mmct",
+    "departureTime": "14:05",
+    "arrivalTime": "19:30",
+    "durationMinutes": 325,
+    "runningDays": [1, 2, 3, 4, 5, 6],
+    "classes": [
+      {
+        "classCode": "CC",
+        "className": "AC Chair Car",
+        "fare": 1420,
+        "status": "AVAILABLE",
+        "availableCount": 38,
+        "seatLayoutId": "train-chair-layout-001"
+      },
+      {
+        "classCode": "EC",
+        "className": "Executive Chair Car",
+        "fare": 2630,
+        "status": "RAC",
+        "availableCount": 3,
+        "seatLayoutId": "train-executive-layout-001"
+      }
+    ],
+    "amenities": ["Modern Pantry", "Touch-free Toilets", "Large Glass Windows"],
+    "demoData": true
+  },
+  {
+    "id": "train-demo-013",
+    "trainNumber": "12124",
+    "trainName": "Deccan Queen Express",
+    "category": "Intercity Express",
+    "routeId": "route-train-pune-bom",
+    "originStationId": "station-pune",
+    "destinationStationId": "station-mmct",
+    "departureTime": "07:15",
+    "arrivalTime": "10:25",
+    "durationMinutes": 190,
+    "runningDays": [0, 1, 2, 3, 4, 5, 6],
+    "classes": [
+      {
+        "classCode": "CC",
+        "className": "AC Chair Car",
+        "fare": 475,
+        "status": "AVAILABLE",
+        "availableCount": 115,
+        "seatLayoutId": "train-chair-layout-001"
+      }
+    ],
+    "amenities": ["Iconic Dining Car", "Heritage Express", "Scenic Ghat View"],
+    "demoData": true
+  },
+  {
+    "id": "train-demo-014",
+    "trainNumber": "12123",
+    "trainName": "Deccan Queen Express",
+    "category": "Intercity Express",
+    "routeId": "route-train-bom-pune",
+    "originStationId": "station-mmct",
+    "destinationStationId": "station-pune",
+    "departureTime": "17:10",
+    "arrivalTime": "20:25",
+    "durationMinutes": 195,
+    "runningDays": [0, 1, 2, 3, 4, 5, 6],
+    "classes": [
+      {
+        "classCode": "CC",
+        "className": "AC Chair Car",
+        "fare": 475,
+        "status": "AVAILABLE",
+        "availableCount": 92,
+        "seatLayoutId": "train-chair-layout-001"
+      }
+    ],
+    "amenities": ["Dining Car", "Fast Commute"],
+    "demoData": true
+  },
+  {
+    "id": "train-demo-015",
+    "trainNumber": "12616",
+    "trainName": "Grand Trunk Express",
+    "category": "Mail and Express",
+    "routeId": "route-train-del-blr",
+    "originStationId": "station-ndls",
+    "destinationStationId": "station-sbc",
+    "departureTime": "16:10",
+    "arrivalTime": "06:10",
+    "durationMinutes": 2280,
+    "runningDays": [0, 1, 2, 3, 4, 5, 6],
+    "classes": [
+      {
+        "classCode": "SL",
+        "className": "Sleeper Class",
+        "fare": 880,
+        "status": "AVAILABLE",
+        "availableCount": 140,
+        "seatLayoutId": "train-sleeper-layout-001"
+      },
+      {
+        "classCode": "3A",
+        "className": "AC 3 Tier",
+        "fare": 2280,
+        "status": "AVAILABLE",
+        "availableCount": 42,
+        "seatLayoutId": "train-3a-layout-001"
+      },
+      {
+        "classCode": "2A",
+        "className": "AC 2 Tier",
+        "fare": 3310,
+        "status": "WAITLIST",
+        "availableCount": 0,
+        "seatLayoutId": "train-3a-layout-001"
+      }
+    ],
+    "amenities": [
+      "Long Route Comfort",
+      "Clean Coach Attendant",
+      "Meals On Demand"
+    ],
+    "demoData": true
+  },
+  {
+    "id": "train-demo-016",
+    "trainNumber": "20806",
+    "trainName": "Vande Bharat Express",
+    "category": "Vande Bharat",
+    "routeId": "route-train-sc-bza",
+    "originStationId": "station-sc",
+    "destinationStationId": "station-bza",
+    "departureTime": "15:00",
+    "arrivalTime": "18:20",
+    "durationMinutes": 200,
+    "runningDays": [1, 2, 3, 4, 5, 6],
+    "classes": [
+      {
+        "classCode": "CC",
+        "className": "AC Chair Car",
+        "fare": 915,
+        "status": "AVAILABLE",
+        "availableCount": 70,
+        "seatLayoutId": "train-chair-layout-001"
+      },
+      {
+        "classCode": "EC",
+        "className": "Executive Chair Car",
+        "fare": 1720,
+        "status": "AVAILABLE",
+        "availableCount": 11,
+        "seatLayoutId": "train-executive-layout-001"
+      }
+    ],
+    "amenities": ["High Speed Link", "Snack Service", "Zero Jerk Suspension"],
+    "demoData": true
+  },
+  {
+    "id": "train-demo-017",
+    "trainNumber": "20643",
+    "trainName": "Coimbatore Vande Bharat",
+    "category": "Vande Bharat",
+    "routeId": "route-train-che-cbe",
+    "originStationId": "station-mas",
+    "destinationStationId": "station-cbe",
+    "departureTime": "06:10",
+    "arrivalTime": "11:50",
+    "durationMinutes": 340,
+    "runningDays": [1, 2, 3, 4, 5, 6],
+    "classes": [
+      {
+        "classCode": "CC",
+        "className": "AC Chair Car",
+        "fare": 1365,
+        "status": "AVAILABLE",
+        "availableCount": 68,
+        "seatLayoutId": "train-chair-layout-001"
+      },
+      {
+        "classCode": "EC",
+        "className": "Executive Chair Car",
+        "fare": 2490,
+        "status": "AVAILABLE",
+        "availableCount": 9,
+        "seatLayoutId": "train-executive-layout-001"
+      }
+    ],
+    "amenities": [
+      "Air Purification System",
+      "Meals Included",
+      "Reclining Seating"
+    ],
+    "demoData": true
+  },
+  {
+    "id": "train-demo-018",
+    "trainNumber": "12560",
+    "trainName": "Shiv Ganga Express",
+    "category": "Mail and Express",
+    "routeId": "route-train-del-var",
+    "originStationId": "station-ndls",
+    "destinationStationId": "station-bsb",
+    "departureTime": "20:05",
+    "arrivalTime": "06:10",
+    "durationMinutes": 605,
+    "runningDays": [0, 1, 2, 3, 4, 5, 6],
+    "classes": [
+      {
+        "classCode": "SL",
+        "className": "Sleeper Class",
+        "fare": 465,
+        "status": "AVAILABLE",
+        "availableCount": 88,
+        "seatLayoutId": "train-sleeper-layout-001"
+      },
+      {
+        "classCode": "3A",
+        "className": "AC 3 Tier",
+        "fare": 1215,
+        "status": "AVAILABLE",
+        "availableCount": 35,
+        "seatLayoutId": "train-3a-layout-001"
+      },
+      {
+        "classCode": "2A",
+        "className": "AC 2 Tier",
+        "fare": 1740,
+        "status": "RAC",
+        "availableCount": 7,
+        "seatLayoutId": "train-3a-layout-001"
+      }
+    ],
+    "amenities": ["Overnight Journey", "Pantry Car", "Bedding Provided in AC"],
+    "demoData": true
+  },
+  {
+    "id": "train-demo-019",
+    "trainNumber": "12260",
+    "trainName": "Sealdah New Delhi AC Duronto",
+    "category": "Duronto",
+    "routeId": "route-train-del-hwh",
+    "originStationId": "station-ndls",
+    "destinationStationId": "station-hwh",
+    "departureTime": "19:45",
+    "arrivalTime": "12:45",
+    "durationMinutes": 1020,
+    "runningDays": [0, 1, 3, 4, 6],
+    "classes": [
+      {
+        "classCode": "3A",
+        "className": "AC 3 Tier",
+        "fare": 2210,
+        "status": "AVAILABLE",
+        "availableCount": 50,
+        "seatLayoutId": "train-3a-layout-001"
+      },
+      {
+        "classCode": "2A",
+        "className": "AC 2 Tier",
+        "fare": 3150,
+        "status": "AVAILABLE",
+        "availableCount": 16,
+        "seatLayoutId": "train-3a-layout-001"
+      },
+      {
+        "classCode": "1A",
+        "className": "AC First Class",
+        "fare": 4790,
+        "status": "AVAILABLE",
+        "availableCount": 4,
+        "seatLayoutId": "train-executive-layout-001"
+      }
+    ],
+    "amenities": ["Hot Gourmet Meals", "Water Bottle Included", "Bed Linen"],
+    "demoData": true
+  },
+  {
+    "id": "train-demo-020",
+    "trainNumber": "12417",
+    "trainName": "Prayagraj Express",
+    "category": "Mail and Express",
+    "routeId": "route-train-del-var",
+    "originStationId": "station-ndls",
+    "destinationStationId": "station-bsb",
+    "departureTime": "22:10",
+    "arrivalTime": "07:00",
+    "durationMinutes": 530,
+    "runningDays": [0, 1, 2, 3, 4, 5, 6],
+    "classes": [
+      {
+        "classCode": "SL",
+        "className": "Sleeper Class",
+        "fare": 450,
+        "status": "AVAILABLE",
+        "availableCount": 105,
+        "seatLayoutId": "train-sleeper-layout-001"
+      },
+      {
+        "classCode": "3A",
+        "className": "AC 3 Tier",
+        "fare": 1190,
+        "status": "AVAILABLE",
+        "availableCount": 40,
+        "seatLayoutId": "train-3a-layout-001"
+      },
+      {
+        "classCode": "1A",
+        "className": "AC First Class",
+        "fare": 2720,
+        "status": "AVAILABLE",
+        "availableCount": 5,
+        "seatLayoutId": "train-executive-layout-001"
+      }
+    ],
+    "amenities": ["On-time Record", "Security Guards", "Clean Washrooms"],
+    "demoData": true
+  },
+  {
+    "id": "train-demo-021",
+    "trainNumber": "12002",
+    "trainName": "Bhopal Shatabdi Express",
+    "category": "Shatabdi",
+    "routeId": "route-train-del-bom",
+    "originStationId": "station-ndls",
+    "destinationStationId": "station-mmct",
+    "departureTime": "06:00",
+    "arrivalTime": "22:30",
+    "durationMinutes": 990,
+    "runningDays": [0, 1, 2, 3, 4, 5, 6],
+    "classes": [
+      {
+        "classCode": "CC",
+        "className": "AC Chair Car",
+        "fare": 1820,
+        "status": "AVAILABLE",
+        "availableCount": 40,
+        "seatLayoutId": "train-chair-layout-001"
+      },
+      {
+        "classCode": "EC",
+        "className": "Executive Chair Car",
+        "fare": 3410,
+        "status": "AVAILABLE",
+        "availableCount": 6,
+        "seatLayoutId": "train-executive-layout-001"
+      }
+    ],
+    "amenities": ["High Speed Track", "Lunch & Dinner Provided"],
+    "demoData": true
+  }
+]

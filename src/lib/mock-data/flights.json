@@ -1,0 +1,792 @@
+[
+  {
+    "id": "flight-demo-001",
+    "routeId": "route-flight-del-blr",
+    "airlineCode": "6E",
+    "airlineName": "IndiGo",
+    "flightNumber": "6E-2051",
+    "originAirportId": "airport-del",
+    "destinationAirportId": "airport-blr",
+    "departureTime": "06:15",
+    "arrivalTime": "09:00",
+    "durationMinutes": 165,
+    "stops": 0,
+    "seatLayoutId": "flight-economy-3x3",
+    "amenities": ["Inflight Snacks", "USB Power"],
+    "fares": [
+      {
+        "id": "f-001-eco",
+        "cabinClass": "ECONOMY",
+        "fareFamily": "Saver",
+        "baseFare": 5499,
+        "baggageAllowanceKg": 15,
+        "refundable": false,
+        "seatSelectionIncluded": false
+      },
+      {
+        "id": "f-001-flex",
+        "cabinClass": "ECONOMY",
+        "fareFamily": "Flexi Plus",
+        "baseFare": 6999,
+        "baggageAllowanceKg": 20,
+        "refundable": true,
+        "seatSelectionIncluded": true
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "flight-demo-002",
+    "routeId": "route-flight-del-blr",
+    "airlineCode": "AI",
+    "airlineName": "Air India",
+    "flightNumber": "AI-803",
+    "originAirportId": "airport-del",
+    "destinationAirportId": "airport-blr",
+    "departureTime": "09:30",
+    "arrivalTime": "12:15",
+    "durationMinutes": 165,
+    "stops": 0,
+    "seatLayoutId": "flight-mixed-layout",
+    "amenities": [
+      "Complimentary Meal",
+      "Inflight Entertainment",
+      "Extra Legroom"
+    ],
+    "fares": [
+      {
+        "id": "f-002-eco",
+        "cabinClass": "ECONOMY",
+        "fareFamily": "Comfort Economy",
+        "baseFare": 5850,
+        "baggageAllowanceKg": 20,
+        "refundable": true,
+        "seatSelectionIncluded": true
+      },
+      {
+        "id": "f-002-biz",
+        "cabinClass": "BUSINESS",
+        "fareFamily": "Executive",
+        "baseFare": 16200,
+        "baggageAllowanceKg": 35,
+        "refundable": true,
+        "seatSelectionIncluded": true
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "flight-demo-003",
+    "routeId": "route-flight-del-blr",
+    "airlineCode": "UK",
+    "airlineName": "Vistara",
+    "flightNumber": "UK-815",
+    "originAirportId": "airport-del",
+    "destinationAirportId": "airport-blr",
+    "departureTime": "16:00",
+    "arrivalTime": "18:45",
+    "durationMinutes": 165,
+    "stops": 0,
+    "seatLayoutId": "flight-business-2x2",
+    "amenities": ["Star Chef Dining", "Mood Lighting", "Beverage Service"],
+    "fares": [
+      {
+        "id": "f-003-eco",
+        "cabinClass": "ECONOMY",
+        "fareFamily": "Standard",
+        "baseFare": 6120,
+        "baggageAllowanceKg": 15,
+        "refundable": false,
+        "seatSelectionIncluded": false
+      },
+      {
+        "id": "f-003-biz",
+        "cabinClass": "BUSINESS",
+        "fareFamily": "Business Value",
+        "baseFare": 17800,
+        "baggageAllowanceKg": 30,
+        "refundable": true,
+        "seatSelectionIncluded": true
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "flight-demo-004",
+    "routeId": "route-flight-blr-del",
+    "airlineCode": "6E",
+    "airlineName": "IndiGo",
+    "flightNumber": "6E-2134",
+    "originAirportId": "airport-blr",
+    "destinationAirportId": "airport-del",
+    "departureTime": "11:20",
+    "arrivalTime": "14:10",
+    "durationMinutes": 170,
+    "stops": 0,
+    "seatLayoutId": "flight-economy-3x3",
+    "amenities": ["Pre-book Hot Meals", "Fast-Forward Check-in"],
+    "fares": [
+      {
+        "id": "f-004-eco",
+        "cabinClass": "ECONOMY",
+        "fareFamily": "Saver",
+        "baseFare": 5350,
+        "baggageAllowanceKg": 15,
+        "refundable": false,
+        "seatSelectionIncluded": false
+      },
+      {
+        "id": "f-004-flex",
+        "cabinClass": "ECONOMY",
+        "fareFamily": "Super 6E",
+        "baseFare": 7450,
+        "baggageAllowanceKg": 25,
+        "refundable": true,
+        "seatSelectionIncluded": true
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "flight-demo-005",
+    "routeId": "route-flight-blr-del",
+    "airlineCode": "QP",
+    "airlineName": "Akasa Air",
+    "flightNumber": "QP-1388",
+    "originAirportId": "airport-blr",
+    "destinationAirportId": "airport-del",
+    "departureTime": "19:40",
+    "arrivalTime": "22:30",
+    "durationMinutes": 170,
+    "stops": 0,
+    "seatLayoutId": "flight-economy-3x3",
+    "amenities": ["CafÃ© Akasa Food", "Ergonomic Cushions"],
+    "fares": [
+      {
+        "id": "f-005-eco",
+        "cabinClass": "ECONOMY",
+        "fareFamily": "Saver",
+        "baseFare": 4999,
+        "baggageAllowanceKg": 15,
+        "refundable": false,
+        "seatSelectionIncluded": false
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "flight-demo-006",
+    "routeId": "route-flight-del-bom",
+    "airlineCode": "BB",
+    "airlineName": "Booking Baaba Wings",
+    "flightNumber": "BB-101",
+    "originAirportId": "airport-del",
+    "destinationAirportId": "airport-bom",
+    "departureTime": "07:00",
+    "arrivalTime": "09:10",
+    "durationMinutes": 130,
+    "stops": 0,
+    "seatLayoutId": "flight-economy-3x3",
+    "amenities": ["Free Wi-Fi", "Signature Chai", "Priority Boarding"],
+    "fares": [
+      {
+        "id": "f-006-eco",
+        "cabinClass": "ECONOMY",
+        "fareFamily": "Baaba Classic",
+        "baseFare": 4890,
+        "baggageAllowanceKg": 20,
+        "refundable": true,
+        "seatSelectionIncluded": true
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "flight-demo-007",
+    "routeId": "route-flight-del-bom",
+    "airlineCode": "UK",
+    "airlineName": "Vistara",
+    "flightNumber": "UK-995",
+    "originAirportId": "airport-del",
+    "destinationAirportId": "airport-bom",
+    "departureTime": "10:20",
+    "arrivalTime": "12:35",
+    "durationMinutes": 135,
+    "stops": 0,
+    "seatLayoutId": "flight-mixed-layout",
+    "amenities": ["Gourmet Meals", "HD Screen"],
+    "fares": [
+      {
+        "id": "f-007-eco",
+        "cabinClass": "ECONOMY",
+        "fareFamily": "Economy Flex",
+        "baseFare": 5600,
+        "baggageAllowanceKg": 15,
+        "refundable": true,
+        "seatSelectionIncluded": false
+      },
+      {
+        "id": "f-007-biz",
+        "cabinClass": "BUSINESS",
+        "fareFamily": "Business Prime",
+        "baseFare": 15400,
+        "baggageAllowanceKg": 30,
+        "refundable": true,
+        "seatSelectionIncluded": true
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "flight-demo-008",
+    "routeId": "route-flight-del-bom",
+    "airlineCode": "AI",
+    "airlineName": "Air India",
+    "flightNumber": "AI-678",
+    "originAirportId": "airport-del",
+    "destinationAirportId": "airport-bom",
+    "departureTime": "17:45",
+    "arrivalTime": "20:00",
+    "durationMinutes": 135,
+    "stops": 0,
+    "seatLayoutId": "flight-economy-3x3",
+    "amenities": ["Warm Meals", "Spacious Cabin"],
+    "fares": [
+      {
+        "id": "f-008-eco",
+        "cabinClass": "ECONOMY",
+        "fareFamily": "Value",
+        "baseFare": 5150,
+        "baggageAllowanceKg": 20,
+        "refundable": false,
+        "seatSelectionIncluded": false
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "flight-demo-009",
+    "routeId": "route-flight-bom-del",
+    "airlineCode": "6E",
+    "airlineName": "IndiGo",
+    "flightNumber": "6E-5312",
+    "originAirportId": "airport-bom",
+    "destinationAirportId": "airport-del",
+    "departureTime": "08:00",
+    "arrivalTime": "10:10",
+    "durationMinutes": 130,
+    "stops": 0,
+    "seatLayoutId": "flight-economy-3x3",
+    "amenities": ["On-time Guarantee", "Direct Boarding"],
+    "fares": [
+      {
+        "id": "f-009-eco",
+        "cabinClass": "ECONOMY",
+        "fareFamily": "Standard Saver",
+        "baseFare": 4750,
+        "baggageAllowanceKg": 15,
+        "refundable": false,
+        "seatSelectionIncluded": false
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "flight-demo-010",
+    "routeId": "route-flight-bom-del",
+    "airlineCode": "BB",
+    "airlineName": "Booking Baaba Wings",
+    "flightNumber": "BB-102",
+    "originAirportId": "airport-bom",
+    "destinationAirportId": "airport-del",
+    "departureTime": "21:30",
+    "arrivalTime": "23:40",
+    "durationMinutes": 130,
+    "stops": 0,
+    "seatLayoutId": "flight-business-2x2",
+    "amenities": ["Free Beverages", "Fast Wi-Fi"],
+    "fares": [
+      {
+        "id": "f-010-biz",
+        "cabinClass": "BUSINESS",
+        "fareFamily": "Executive",
+        "baseFare": 14200,
+        "baggageAllowanceKg": 30,
+        "refundable": true,
+        "seatSelectionIncluded": true
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "flight-demo-011",
+    "routeId": "route-flight-bom-goi",
+    "airlineCode": "6E",
+    "airlineName": "IndiGo",
+    "flightNumber": "6E-621",
+    "originAirportId": "airport-bom",
+    "destinationAirportId": "airport-goi",
+    "departureTime": "11:00",
+    "arrivalTime": "12:15",
+    "durationMinutes": 75,
+    "stops": 0,
+    "seatLayoutId": "flight-economy-3x3",
+    "amenities": ["Quick Hop", "Beach Bound Vibes"],
+    "fares": [
+      {
+        "id": "f-011-eco",
+        "cabinClass": "ECONOMY",
+        "fareFamily": "Saver",
+        "baseFare": 3100,
+        "baggageAllowanceKg": 15,
+        "refundable": false,
+        "seatSelectionIncluded": false
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "flight-demo-012",
+    "routeId": "route-flight-del-goi",
+    "airlineCode": "AI",
+    "airlineName": "Air India",
+    "flightNumber": "AI-883",
+    "originAirportId": "airport-del",
+    "destinationAirportId": "airport-goi",
+    "departureTime": "10:15",
+    "arrivalTime": "12:50",
+    "durationMinutes": 155,
+    "stops": 0,
+    "seatLayoutId": "flight-economy-3x3",
+    "amenities": ["Full Meal", "Beach Holiday Specials"],
+    "fares": [
+      {
+        "id": "f-012-eco",
+        "cabinClass": "ECONOMY",
+        "fareFamily": "Vacation Economy",
+        "baseFare": 6450,
+        "baggageAllowanceKg": 20,
+        "refundable": true,
+        "seatSelectionIncluded": true
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "flight-demo-013",
+    "routeId": "route-flight-del-ccu",
+    "airlineCode": "6E",
+    "airlineName": "IndiGo",
+    "flightNumber": "6E-459",
+    "originAirportId": "airport-del",
+    "destinationAirportId": "airport-ccu",
+    "departureTime": "06:40",
+    "arrivalTime": "08:55",
+    "durationMinutes": 135,
+    "stops": 0,
+    "seatLayoutId": "flight-economy-3x3",
+    "amenities": ["Snack Tray", "Punctual Arrival"],
+    "fares": [
+      {
+        "id": "f-013-eco",
+        "cabinClass": "ECONOMY",
+        "fareFamily": "Saver",
+        "baseFare": 4900,
+        "baggageAllowanceKg": 15,
+        "refundable": false,
+        "seatSelectionIncluded": false
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "flight-demo-014",
+    "routeId": "route-flight-blr-bom",
+    "airlineCode": "QP",
+    "airlineName": "Akasa Air",
+    "flightNumber": "QP-1102",
+    "originAirportId": "airport-blr",
+    "destinationAirportId": "airport-bom",
+    "departureTime": "07:30",
+    "arrivalTime": "09:10",
+    "durationMinutes": 100,
+    "stops": 0,
+    "seatLayoutId": "flight-economy-3x3",
+    "amenities": ["Pet Friendly", "USB Charging"],
+    "fares": [
+      {
+        "id": "f-014-eco",
+        "cabinClass": "ECONOMY",
+        "fareFamily": "Eco Saver",
+        "baseFare": 3850,
+        "baggageAllowanceKg": 15,
+        "refundable": false,
+        "seatSelectionIncluded": false
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "flight-demo-015",
+    "routeId": "route-flight-bom-blr",
+    "airlineCode": "AI",
+    "airlineName": "Air India",
+    "flightNumber": "AI-641",
+    "originAirportId": "airport-bom",
+    "destinationAirportId": "airport-blr",
+    "departureTime": "18:20",
+    "arrivalTime": "20:00",
+    "durationMinutes": 100,
+    "stops": 0,
+    "seatLayoutId": "flight-economy-3x3",
+    "amenities": ["Hot Dinner", "Generous Luggage"],
+    "fares": [
+      {
+        "id": "f-015-eco",
+        "cabinClass": "ECONOMY",
+        "fareFamily": "Regular",
+        "baseFare": 4200,
+        "baggageAllowanceKg": 25,
+        "refundable": true,
+        "seatSelectionIncluded": true
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "flight-demo-016",
+    "routeId": "route-flight-hyd-del",
+    "airlineCode": "UK",
+    "airlineName": "Vistara",
+    "flightNumber": "UK-872",
+    "originAirportId": "airport-hyd",
+    "destinationAirportId": "airport-del",
+    "departureTime": "14:15",
+    "arrivalTime": "16:30",
+    "durationMinutes": 135,
+    "stops": 0,
+    "seatLayoutId": "flight-mixed-layout",
+    "amenities": ["Complimentary High Tea", "Leather Seats"],
+    "fares": [
+      {
+        "id": "f-016-eco",
+        "cabinClass": "ECONOMY",
+        "fareFamily": "Standard",
+        "baseFare": 4700,
+        "baggageAllowanceKg": 15,
+        "refundable": false,
+        "seatSelectionIncluded": false
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "flight-demo-017",
+    "routeId": "route-flight-maa-blr",
+    "airlineCode": "6E",
+    "airlineName": "IndiGo",
+    "flightNumber": "6E-711",
+    "originAirportId": "airport-maa",
+    "destinationAirportId": "airport-blr",
+    "departureTime": "08:10",
+    "arrivalTime": "09:05",
+    "durationMinutes": 55,
+    "stops": 0,
+    "seatLayoutId": "flight-economy-3x3",
+    "amenities": ["Short Hop", "Express Exit"],
+    "fares": [
+      {
+        "id": "f-017-eco",
+        "cabinClass": "ECONOMY",
+        "fareFamily": "Express Saver",
+        "baseFare": 2750,
+        "baggageAllowanceKg": 15,
+        "refundable": false,
+        "seatSelectionIncluded": false
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "flight-demo-018",
+    "routeId": "route-flight-del-dxb",
+    "airlineCode": "EK",
+    "airlineName": "Emirates",
+    "flightNumber": "EK-511",
+    "originAirportId": "airport-del",
+    "destinationAirportId": "airport-dxb",
+    "departureTime": "10:35",
+    "arrivalTime": "13:00",
+    "durationMinutes": 235,
+    "stops": 0,
+    "seatLayoutId": "flight-economy-3x3x3",
+    "amenities": ["Ice Entertainment", "Multi-course Meal", "Wi-Fi onboard"],
+    "fares": [
+      {
+        "id": "f-018-eco",
+        "cabinClass": "ECONOMY",
+        "fareFamily": "Special",
+        "baseFare": 17800,
+        "baggageAllowanceKg": 30,
+        "refundable": false,
+        "seatSelectionIncluded": true
+      },
+      {
+        "id": "f-018-biz",
+        "cabinClass": "BUSINESS",
+        "fareFamily": "Business Class",
+        "baseFare": 48900,
+        "baggageAllowanceKg": 40,
+        "refundable": true,
+        "seatSelectionIncluded": true
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "flight-demo-019",
+    "routeId": "route-flight-bom-dxb",
+    "airlineCode": "AI",
+    "airlineName": "Air India",
+    "flightNumber": "AI-995",
+    "originAirportId": "airport-bom",
+    "destinationAirportId": "airport-dxb",
+    "departureTime": "20:00",
+    "arrivalTime": "21:55",
+    "durationMinutes": 205,
+    "stops": 0,
+    "seatLayoutId": "flight-economy-3x3",
+    "amenities": ["Hot Indian Meals", "Duty Free Service"],
+    "fares": [
+      {
+        "id": "f-019-eco",
+        "cabinClass": "ECONOMY",
+        "fareFamily": "Economy",
+        "baseFare": 14200,
+        "baggageAllowanceKg": 25,
+        "refundable": true,
+        "seatSelectionIncluded": true
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "flight-demo-020",
+    "routeId": "route-flight-blr-sin",
+    "airlineCode": "SQ",
+    "airlineName": "Singapore Airlines",
+    "flightNumber": "SQ-503",
+    "originAirportId": "airport-blr",
+    "destinationAirportId": "airport-sin",
+    "departureTime": "23:10",
+    "arrivalTime": "06:10",
+    "durationMinutes": 275,
+    "stops": 0,
+    "seatLayoutId": "flight-economy-3x3x3",
+    "amenities": [
+      "KrisWorld Screen",
+      "Singapore Girl Service",
+      "Free Cocktails"
+    ],
+    "fares": [
+      {
+        "id": "f-020-eco",
+        "cabinClass": "ECONOMY",
+        "fareFamily": "Economy Value",
+        "baseFare": 22400,
+        "baggageAllowanceKg": 30,
+        "refundable": true,
+        "seatSelectionIncluded": true
+      },
+      {
+        "id": "f-020-biz",
+        "cabinClass": "BUSINESS",
+        "fareFamily": "Business Standard",
+        "baseFare": 64500,
+        "baggageAllowanceKg": 40,
+        "refundable": true,
+        "seatSelectionIncluded": true
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "flight-demo-021",
+    "routeId": "route-flight-del-lhr",
+    "airlineCode": "BA",
+    "airlineName": "British Airways",
+    "flightNumber": "BA-142",
+    "originAirportId": "airport-del",
+    "destinationAirportId": "airport-lhr",
+    "departureTime": "03:20",
+    "arrivalTime": "07:50",
+    "durationMinutes": 540,
+    "stops": 0,
+    "seatLayoutId": "flight-economy-3x3x3",
+    "amenities": [
+      "Full Bar Service",
+      "Personal Touchscreen",
+      "Blanket & Pillow"
+    ],
+    "fares": [
+      {
+        "id": "f-021-eco",
+        "cabinClass": "ECONOMY",
+        "fareFamily": "World Traveller",
+        "baseFare": 42100,
+        "baggageAllowanceKg": 23,
+        "refundable": false,
+        "seatSelectionIncluded": false
+      },
+      {
+        "id": "f-021-biz",
+        "cabinClass": "BUSINESS",
+        "fareFamily": "Club World",
+        "baseFare": 118000,
+        "baggageAllowanceKg": 64,
+        "refundable": true,
+        "seatSelectionIncluded": true
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "flight-demo-022",
+    "routeId": "route-flight-bom-lhr",
+    "airlineCode": "AI",
+    "airlineName": "Air India",
+    "flightNumber": "AI-131",
+    "originAirportId": "airport-bom",
+    "destinationAirportId": "airport-lhr",
+    "departureTime": "06:30",
+    "arrivalTime": "11:30",
+    "durationMinutes": 570,
+    "stops": 0,
+    "seatLayoutId": "flight-economy-3x3x3",
+    "amenities": [
+      "Direct Dreamliner",
+      "Indian Hospitality",
+      "Generous Baggage"
+    ],
+    "fares": [
+      {
+        "id": "f-022-eco",
+        "cabinClass": "ECONOMY",
+        "fareFamily": "Classic",
+        "baseFare": 39800,
+        "baggageAllowanceKg": 46,
+        "refundable": true,
+        "seatSelectionIncluded": true
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "flight-demo-023",
+    "routeId": "route-flight-del-blr",
+    "airlineCode": "6E",
+    "airlineName": "IndiGo",
+    "flightNumber": "6E-5021",
+    "originAirportId": "airport-del",
+    "destinationAirportId": "airport-blr",
+    "departureTime": "20:30",
+    "arrivalTime": "23:15",
+    "durationMinutes": 165,
+    "stops": 0,
+    "seatLayoutId": "flight-economy-3x3",
+    "amenities": ["Late Night Connection", "Quick Check-in"],
+    "fares": [
+      {
+        "id": "f-023-eco",
+        "cabinClass": "ECONOMY",
+        "fareFamily": "Saver",
+        "baseFare": 5100,
+        "baggageAllowanceKg": 15,
+        "refundable": false,
+        "seatSelectionIncluded": false
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "flight-demo-024",
+    "routeId": "route-flight-del-bom",
+    "airlineCode": "QP",
+    "airlineName": "Akasa Air",
+    "flightNumber": "QP-1450",
+    "originAirportId": "airport-del",
+    "destinationAirportId": "airport-bom",
+    "departureTime": "12:45",
+    "arrivalTime": "15:00",
+    "durationMinutes": 135,
+    "stops": 0,
+    "seatLayoutId": "flight-economy-3x3",
+    "amenities": ["Quiet Cabin", "Eco friendly"],
+    "fares": [
+      {
+        "id": "f-024-eco",
+        "cabinClass": "ECONOMY",
+        "fareFamily": "Saver",
+        "baseFare": 4450,
+        "baggageAllowanceKg": 15,
+        "refundable": false,
+        "seatSelectionIncluded": false
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "flight-demo-025",
+    "routeId": "route-flight-del-goi",
+    "airlineCode": "6E",
+    "airlineName": "IndiGo",
+    "flightNumber": "6E-318",
+    "originAirportId": "airport-del",
+    "destinationAirportId": "airport-goi",
+    "departureTime": "14:20",
+    "arrivalTime": "16:55",
+    "durationMinutes": 155,
+    "stops": 0,
+    "seatLayoutId": "flight-economy-3x3",
+    "amenities": ["Holiday Express", "Direct Flight"],
+    "fares": [
+      {
+        "id": "f-025-eco",
+        "cabinClass": "ECONOMY",
+        "fareFamily": "Goa Saver",
+        "baseFare": 5990,
+        "baggageAllowanceKg": 15,
+        "refundable": false,
+        "seatSelectionIncluded": false
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "flight-demo-026",
+    "routeId": "route-flight-del-dxb",
+    "airlineCode": "6E",
+    "airlineName": "IndiGo",
+    "flightNumber": "6E-1461",
+    "originAirportId": "airport-del",
+    "destinationAirportId": "airport-dxb",
+    "departureTime": "18:15",
+    "arrivalTime": "20:50",
+    "durationMinutes": 245,
+    "stops": 0,
+    "seatLayoutId": "flight-economy-3x3",
+    "amenities": ["Direct International", "Meals Available"],
+    "fares": [
+      {
+        "id": "f-026-eco",
+        "cabinClass": "ECONOMY",
+        "fareFamily": "Saver International",
+        "baseFare": 12900,
+        "baggageAllowanceKg": 20,
+        "refundable": false,
+        "seatSelectionIncluded": false
+      }
+    ],
+    "demoData": true
+  }
+]

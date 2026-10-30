@@ -1,0 +1,322 @@
+[
+  {
+    "id": "dest-varanasi",
+    "city": "Varanasi",
+    "state": "Uttar Pradesh",
+    "region": "North",
+    "description": "The spiritual capital of India along the sacred banks of River Ganga.",
+    "imageUrl": "https://images.unsplash.com/photo-1561359313-0639aad49ca6?q=80&w=800&auto=format&fit=crop",
+    "popularRouteIds": ["route-train-del-var", "route-flight-del-blr"],
+    "tag": "Spiritual & Heritage",
+    "searchPrefill": {
+      "transportMode": "train",
+      "originId": "station-ndls",
+      "destinationId": "station-bsb"
+    }
+  },
+  {
+    "id": "dest-goa",
+    "city": "Goa",
+    "state": "Goa",
+    "region": "West",
+    "description": "Sun-kissed beaches, vibrant nightlife, Portuguese architecture, and coastal cuisine.",
+    "imageUrl": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?q=80&w=800&auto=format&fit=crop",
+    "popularRouteIds": [
+      "route-flight-bom-goi",
+      "route-flight-del-goi",
+      "route-bus-blr-goa"
+    ],
+    "tag": "Beaches & Nightlife",
+    "searchPrefill": {
+      "transportMode": "flight",
+      "originId": "airport-del",
+      "destinationId": "airport-goi"
+    }
+  },
+  {
+    "id": "dest-jaipur",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "region": "North",
+    "description": "The Pink City with royal palaces, ancient astronomical observatories, and vibrant bazaars.",
+    "imageUrl": "https://images.unsplash.com/photo-1477587458883-47145ed94245?q=80&w=800&auto=format&fit=crop",
+    "popularRouteIds": ["route-train-del-jp", "route-bus-del-jai"],
+    "tag": "Royal Palaces",
+    "searchPrefill": {
+      "transportMode": "train",
+      "originId": "station-ndls",
+      "destinationId": "station-jp"
+    }
+  },
+  {
+    "id": "dest-manali",
+    "city": "Manali",
+    "state": "Himachal Pradesh",
+    "region": "North",
+    "description": "Breathtaking snow-capped Himalayan peaks, apple orchards, and adventurous pine trails.",
+    "imageUrl": "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?q=80&w=800&auto=format&fit=crop",
+    "popularRouteIds": ["route-bus-del-mnl"],
+    "tag": "Mountains & Snow",
+    "searchPrefill": {
+      "transportMode": "bus",
+      "originId": "city-del",
+      "destinationId": "city-mnl"
+    }
+  },
+  {
+    "id": "dest-mumbai",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "region": "West",
+    "description": "The City of Dreams, Marine Drive sunset views, Bollywood, and historic Gateway of India.",
+    "imageUrl": "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?q=80&w=800&auto=format&fit=crop",
+    "popularRouteIds": [
+      "route-train-del-bom",
+      "route-flight-del-bom",
+      "route-bus-pune-bom"
+    ],
+    "tag": "Bustling Metropolis",
+    "searchPrefill": {
+      "transportMode": "flight",
+      "originId": "airport-del",
+      "destinationId": "airport-bom"
+    }
+  },
+  {
+    "id": "dest-bengaluru",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "region": "South",
+    "description": "India's Silicon Valley, pleasant garden city weather, and vibrant artisanal microbreweries.",
+    "imageUrl": "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?q=80&w=800&auto=format&fit=crop",
+    "popularRouteIds": [
+      "route-flight-del-blr",
+      "route-train-blr-che",
+      "route-bus-blr-che"
+    ],
+    "tag": "Tech Hub & Gardens",
+    "searchPrefill": {
+      "transportMode": "flight",
+      "originId": "airport-del",
+      "destinationId": "airport-blr"
+    }
+  },
+  {
+    "id": "dest-chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "region": "South",
+    "description": "Marina Beach, classical music, rich Dravidian temples, and authentic filter coffee.",
+    "imageUrl": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?q=80&w=800&auto=format&fit=crop",
+    "popularRouteIds": [
+      "route-train-blr-che",
+      "route-bus-blr-che",
+      "route-train-che-cbe"
+    ],
+    "tag": "Cultural Heart",
+    "searchPrefill": {
+      "transportMode": "train",
+      "originId": "station-sbc",
+      "destinationId": "station-mas"
+    }
+  },
+  {
+    "id": "dest-agra",
+    "city": "Agra",
+    "state": "Uttar Pradesh",
+    "region": "North",
+    "description": "Home to the eternal wonder of the world, Taj Mahal, and majestic Mughal fortresses.",
+    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?q=80&w=800&auto=format&fit=crop",
+    "popularRouteIds": ["route-bus-del-agr"],
+    "tag": "Wonder of the World",
+    "searchPrefill": {
+      "transportMode": "bus",
+      "originId": "city-del",
+      "destinationId": "city-agr"
+    }
+  },
+  {
+    "id": "dest-delhi",
+    "city": "Delhi",
+    "state": "Delhi",
+    "region": "North",
+    "description": "The capital crossroads of ancient empires, Red Fort, culinary magic, and broad avenues.",
+    "imageUrl": "https://images.unsplash.com/photo-1587474260584-136574528ed5?q=80&w=800&auto=format&fit=crop",
+    "popularRouteIds": ["route-flight-bom-del", "route-train-bom-del"],
+    "tag": "Historic Capital",
+    "searchPrefill": {
+      "transportMode": "train",
+      "originId": "station-mmct",
+      "destinationId": "station-ndls"
+    }
+  },
+  {
+    "id": "dest-kochi",
+    "city": "Kochi",
+    "state": "Kerala",
+    "region": "South",
+    "description": "Chinese fishing nets, spice trading heritage, Mattancherry palace, and serene backwaters.",
+    "imageUrl": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?q=80&w=800&auto=format&fit=crop",
+    "popularRouteIds": ["route-bus-blr-cok"],
+    "tag": "Queen of Arabian Sea",
+    "searchPrefill": {
+      "transportMode": "bus",
+      "originId": "city-blr",
+      "destinationId": "city-cok"
+    }
+  },
+  {
+    "id": "dest-hyderabad",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "region": "South",
+    "description": "City of Pearls, majestic Charminar, aroma of authentic Dum Biryani, and HITEC City.",
+    "imageUrl": "https://images.unsplash.com/photo-1605007493699-ce65834f8a00?q=80&w=800&auto=format&fit=crop",
+    "popularRouteIds": [
+      "route-flight-hyd-del",
+      "route-train-sc-bza",
+      "route-bus-blr-hyd"
+    ],
+    "tag": "Pearls & Biryani",
+    "searchPrefill": {
+      "transportMode": "flight",
+      "originId": "airport-hyd",
+      "destinationId": "airport-del"
+    }
+  },
+  {
+    "id": "dest-kolkata",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "region": "East",
+    "description": "City of Joy, Victoria Memorial, Howrah Bridge, vintage yellow taxis, and sweets.",
+    "imageUrl": "https://images.unsplash.com/photo-1558431382-27e303142255?q=80&w=800&auto=format&fit=crop",
+    "popularRouteIds": ["route-train-del-hwh", "route-flight-del-ccu"],
+    "tag": "Literature & Culture",
+    "searchPrefill": {
+      "transportMode": "flight",
+      "originId": "airport-del",
+      "destinationId": "airport-ccu"
+    }
+  },
+  {
+    "id": "dest-ahmedabad",
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "region": "West",
+    "description": "Sabarmati Ashram, UNESCO World Heritage architecture, and savory culinary streets.",
+    "imageUrl": "https://images.unsplash.com/photo-1609137144822-4911068fa649?q=80&w=800&auto=format&fit=crop",
+    "popularRouteIds": ["route-train-bom-adi"],
+    "tag": "Heritage & Textile",
+    "searchPrefill": {
+      "transportMode": "train",
+      "originId": "station-mmct",
+      "destinationId": "station-adi"
+    }
+  },
+  {
+    "id": "dest-pune",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "region": "West",
+    "description": "Oxford of the East, lush Sahyadri Western Ghats, and Maratha historical citadels.",
+    "imageUrl": "https://images.unsplash.com/photo-1588714477688-cf28a50e94f7?q=80&w=800&auto=format&fit=crop",
+    "popularRouteIds": ["route-train-bom-pune", "route-bus-bom-pune"],
+    "tag": "Ghats & Universities",
+    "searchPrefill": {
+      "transportMode": "train",
+      "originId": "station-mmct",
+      "destinationId": "station-pune"
+    }
+  },
+  {
+    "id": "dest-lucknow",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "region": "North",
+    "description": "City of Nawabs, Awadhi royal cuisine, intricate Chikankari embroidery, and Bara Imambara.",
+    "imageUrl": "https://images.unsplash.com/photo-1608958435020-e8a7109ba809?q=80&w=800&auto=format&fit=crop",
+    "popularRouteIds": ["route-train-del-lko"],
+    "tag": "Nawabi Elegance",
+    "searchPrefill": {
+      "transportMode": "train",
+      "originId": "station-ndls",
+      "destinationId": "station-lko"
+    }
+  },
+  {
+    "id": "dest-pondicherry",
+    "city": "Pondicherry",
+    "state": "Puducherry",
+    "region": "South",
+    "description": "French colonial Quarter, tranquil Promenade beach, Auroville spiritual haven.",
+    "imageUrl": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?q=80&w=800&auto=format&fit=crop",
+    "popularRouteIds": ["route-bus-che-pon"],
+    "tag": "French Quarter & Sea",
+    "searchPrefill": {
+      "transportMode": "bus",
+      "originId": "city-che",
+      "destinationId": "city-pon"
+    }
+  },
+  {
+    "id": "dest-coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "region": "South",
+    "description": "Gateway to Ooty, peaceful Isha Yoga Center, and breezy foothill plantations.",
+    "imageUrl": "https://images.unsplash.com/photo-1609137144822-4911068fa649?q=80&w=800&auto=format&fit=crop",
+    "popularRouteIds": ["route-train-che-cbe", "route-bus-che-cbe"],
+    "tag": "Foothills & Serenity",
+    "searchPrefill": {
+      "transportMode": "train",
+      "originId": "station-mas",
+      "destinationId": "station-cbe"
+    }
+  },
+  {
+    "id": "dest-vijayawada",
+    "city": "Vijayawada",
+    "state": "Andhra Pradesh",
+    "region": "South",
+    "description": "Prakasam Barrage over Krishna River and Kanaka Durga ancient hill shrine.",
+    "imageUrl": "https://images.unsplash.com/photo-1605007493699-ce65834f8a00?q=80&w=800&auto=format&fit=crop",
+    "popularRouteIds": ["route-train-sc-bza", "route-bus-hyd-vja"],
+    "tag": "River & Temples",
+    "searchPrefill": {
+      "transportMode": "train",
+      "originId": "station-sc",
+      "destinationId": "station-bza"
+    }
+  },
+  {
+    "id": "dest-dubai",
+    "city": "Dubai",
+    "state": "Dubai",
+    "region": "International",
+    "description": "Futuristic skyline, Burj Khalifa, opulent desert safaris, and luxury shopping.",
+    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?q=80&w=800&auto=format&fit=crop",
+    "popularRouteIds": ["route-flight-del-dxb", "route-flight-bom-dxb"],
+    "tag": "Global Luxury",
+    "searchPrefill": {
+      "transportMode": "flight",
+      "originId": "airport-del",
+      "destinationId": "airport-dxb"
+    }
+  },
+  {
+    "id": "dest-singapore",
+    "city": "Singapore",
+    "state": "Singapore",
+    "region": "International",
+    "description": "Gardens by the Bay, Marina Bay Sands, tropical cleanliness, and world-class street food.",
+    "imageUrl": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?q=80&w=800&auto=format&fit=crop",
+    "popularRouteIds": ["route-flight-blr-sin"],
+    "tag": "Futuristic Garden City",
+    "searchPrefill": {
+      "transportMode": "flight",
+      "originId": "airport-blr",
+      "destinationId": "airport-sin"
+    }
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "op-krl",
+    "name": "KSRTC Airavat",
+    "category": "State Corporation",
+    "regions": ["South", "Karnataka", "Tamil Nadu", "Kerala"],
+    "description": "Premium multi-axle Scandinavian Volvo buses connecting southern hubs.",
+    "logoText": "AIRAVAT",
+    "demoData": true
+  },
+  {
+    "id": "op-vrl",
+    "name": "VRL Travels",
+    "category": "Private Fleet",
+    "regions": ["South", "West", "Central"],
+    "description": "India's largest commercial fleet operator with well-maintained coaches.",
+    "logoText": "VRL",
+    "demoData": true
+  },
+  {
+    "id": "op-srs",
+    "name": "SRS Travels",
+    "category": "Private Fleet",
+    "regions": ["South"],
+    "description": "Reliable intercity bus services covering major metropolitan corridors.",
+    "logoText": "SRS",
+    "demoData": true
+  },
+  {
+    "id": "op-orange",
+    "name": "Orange Tours & Travels",
+    "category": "Luxury Private",
+    "regions": ["South", "Telangana", "Andhra Pradesh"],
+    "description": "Ultra luxury multi-axle sleeper buses with live tracking and blankets.",
+    "logoText": "ORANGE",
+    "demoData": true
+  },
+  {
+    "id": "op-intr",
+    "name": "IntrCity SmartBus",
+    "category": "Tech Enabled Fleet",
+    "regions": ["North", "South", "West"],
+    "description": "Smart buses with onboard washrooms, bus captains, and lounge access.",
+    "logoText": "INTRCITY",
+    "demoData": true
+  },
+  {
+    "id": "op-zing",
+    "name": "Zingbus Electric",
+    "category": "Modern Mobility",
+    "regions": ["North", "West"],
+    "description": "Eco-friendly, connected electric and luxury coaches with high punctuality.",
+    "logoText": "ZINGBUS",
+    "demoData": true
+  },
+  {
+    "id": "op-neeta",
+    "name": "Neeta Tours & Travels",
+    "category": "Private Fleet",
+    "regions": ["West", "Maharashtra", "Goa", "Gujarat"],
+    "description": "The pioneer of Volvo intercity travel across the Mumbai-Pune-Goa belt.",
+    "logoText": "NEETA",
+    "demoData": true
+  },
+  {
+    "id": "op-bb",
+    "name": "Booking Baaba Superliner",
+    "category": "Signature Express",
+    "regions": ["National"],
+    "description": "Official Booking Baaba partnered direct point-to-point luxury transit.",
+    "logoText": "BAABA",
+    "demoData": true
+  }
+]

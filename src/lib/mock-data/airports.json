@@ -1,0 +1,154 @@
+[
+  {
+    "id": "airport-del",
+    "iataCode": "DEL",
+    "name": "Indira Gandhi International Airport",
+    "city": "Delhi",
+    "state": "Delhi",
+    "country": "India"
+  },
+  {
+    "id": "airport-bom",
+    "iataCode": "BOM",
+    "name": "Chhatrapati Shivaji Maharaj International Airport",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "country": "India"
+  },
+  {
+    "id": "airport-blr",
+    "iataCode": "BLR",
+    "name": "Kempegowda International Airport",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "country": "India"
+  },
+  {
+    "id": "airport-hyd",
+    "iataCode": "HYD",
+    "name": "Rajiv Gandhi International Airport",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "country": "India"
+  },
+  {
+    "id": "airport-maa",
+    "iataCode": "MAA",
+    "name": "Chennai International Airport",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "country": "India"
+  },
+  {
+    "id": "airport-ccu",
+    "iataCode": "CCU",
+    "name": "Netaji Subhash Chandra Bose International Airport",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "country": "India"
+  },
+  {
+    "id": "airport-cok",
+    "iataCode": "COK",
+    "name": "Cochin International Airport",
+    "city": "Kochi",
+    "state": "Kerala",
+    "country": "India"
+  },
+  {
+    "id": "airport-goi",
+    "iataCode": "GOI",
+    "name": "Dabolim International Airport",
+    "city": "Goa",
+    "state": "Goa",
+    "country": "India"
+  },
+  {
+    "id": "airport-amd",
+    "iataCode": "AMD",
+    "name": "Sardar Vallabhbhai Patel International Airport",
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "country": "India"
+  },
+  {
+    "id": "airport-pnq",
+    "iataCode": "PNQ",
+    "name": "Pune International Airport",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "country": "India"
+  },
+  {
+    "id": "airport-jai",
+    "iataCode": "JAI",
+    "name": "Jaipur International Airport",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "country": "India"
+  },
+  {
+    "id": "airport-lko",
+    "iataCode": "LKO",
+    "name": "Chaudhary Charan Singh International Airport",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "country": "India"
+  },
+  {
+    "id": "airport-gau",
+    "iataCode": "GAU",
+    "name": "Lokpriya Gopinath Bordoloi International Airport",
+    "city": "Guwahati",
+    "state": "Assam",
+    "country": "India"
+  },
+  {
+    "id": "airport-ixc",
+    "iataCode": "IXC",
+    "name": "Shaheed Bhagat Singh International Airport",
+    "city": "Chandigarh",
+    "state": "Punjab",
+    "country": "India"
+  },
+  {
+    "id": "airport-vns",
+    "iataCode": "VNS",
+    "name": "Lal Bahadur Shastri International Airport",
+    "city": "Varanasi",
+    "state": "Uttar Pradesh",
+    "country": "India"
+  },
+  {
+    "id": "airport-dxb",
+    "iataCode": "DXB",
+    "name": "Dubai International Airport",
+    "city": "Dubai",
+    "state": "Dubai",
+    "country": "United Arab Emirates"
+  },
+  {
+    "id": "airport-sin",
+    "iataCode": "SIN",
+    "name": "Singapore Changi Airport",
+    "city": "Singapore",
+    "state": "Singapore",
+    "country": "Singapore"
+  },
+  {
+    "id": "airport-lhr",
+    "iataCode": "LHR",
+    "name": "London Heathrow Airport",
+    "city": "London",
+    "state": "England",
+    "country": "United Kingdom"
+  },
+  {
+    "id": "airport-bkk",
+    "iataCode": "BKK",
+    "name": "Suvarnabhumi Airport",
+    "city": "Bangkok",
+    "state": "Bangkok",
+    "country": "Thailand"
+  }
+]

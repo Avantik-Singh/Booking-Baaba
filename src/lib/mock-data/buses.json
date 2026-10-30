@@ -1,0 +1,1314 @@
+[
+  {
+    "id": "bus-demo-001",
+    "operatorId": "op-krl",
+    "serviceName": "Airavat Club Class Multi-Axle",
+    "routeId": "route-bus-blr-che",
+    "originCityId": "city-blr",
+    "destinationCityId": "city-che",
+    "busType": "SEATER",
+    "isAC": true,
+    "departureTime": "06:00",
+    "arrivalTime": "12:00",
+    "durationMinutes": 360,
+    "farePerSeat": 750,
+    "seatLayoutId": "bus-seater-2x2",
+    "amenities": [
+      "Air Conditioning",
+      "Charging Port",
+      "Water Bottle",
+      "Emergency Hammer"
+    ],
+    "boardingPoints": [
+      {
+        "id": "bp-b-01",
+        "name": "Majestic (KSRTC Terminal 1)",
+        "address": "Kempegowda Bus Station",
+        "departureTime": "06:00"
+      },
+      {
+        "id": "bp-b-02",
+        "name": "Shantinagar Bus Station",
+        "address": "Double Road",
+        "departureTime": "06:30"
+      },
+      {
+        "id": "bp-b-03",
+        "name": "Electronic City Toll",
+        "address": "Hosur Road Junction",
+        "departureTime": "07:00"
+      }
+    ],
+    "droppingPoints": [
+      {
+        "id": "dp-c-01",
+        "name": "Koyambedu (CMBT)",
+        "address": "Platform 4 CMBT",
+        "arrivalTime": "11:45"
+      },
+      {
+        "id": "dp-c-02",
+        "name": "Guindy Kathipara",
+        "address": "Near Guindy Metro",
+        "arrivalTime": "12:00"
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "bus-demo-002",
+    "operatorId": "op-orange",
+    "serviceName": "Orange Multi-Axle Sleeper",
+    "routeId": "route-bus-blr-che",
+    "originCityId": "city-blr",
+    "destinationCityId": "city-che",
+    "busType": "SLEEPER",
+    "isAC": true,
+    "departureTime": "23:00",
+    "arrivalTime": "05:00",
+    "durationMinutes": 360,
+    "farePerSeat": 1150,
+    "seatLayoutId": "bus-sleeper-upper-lower",
+    "amenities": [
+      "Clean Bed Linen",
+      "Reading Light",
+      "Live GPS Tracking",
+      "CCTV",
+      "Snacks"
+    ],
+    "boardingPoints": [
+      {
+        "id": "bp-b-04",
+        "name": "Indiranagar",
+        "address": "CMH Road",
+        "departureTime": "23:00"
+      },
+      {
+        "id": "bp-b-05",
+        "name": "Madiwala",
+        "address": "Opposite St John Hospital",
+        "departureTime": "23:30"
+      }
+    ],
+    "droppingPoints": [
+      {
+        "id": "dp-c-03",
+        "name": "Sriperumbudur Toll",
+        "address": "NH48 Highway",
+        "arrivalTime": "04:30"
+      },
+      {
+        "id": "dp-c-04",
+        "name": "Koyambedu",
+        "address": "Omni Bus Stand",
+        "arrivalTime": "05:00"
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "bus-demo-003",
+    "operatorId": "op-vrl",
+    "serviceName": "VRL I-Shift Volvo Multi-Axle",
+    "routeId": "route-bus-che-blr",
+    "originCityId": "city-che",
+    "destinationCityId": "city-blr",
+    "busType": "SEMI_SLEEPER",
+    "isAC": true,
+    "departureTime": "14:00",
+    "arrivalTime": "20:00",
+    "durationMinutes": 360,
+    "farePerSeat": 850,
+    "seatLayoutId": "bus-semi-sleeper-2x2",
+    "amenities": ["140° Recline", "USB Charging", "Movie Screen"],
+    "boardingPoints": [
+      {
+        "id": "bp-c-01",
+        "name": "Koyambedu Omni Stand",
+        "address": "Shop 12",
+        "departureTime": "14:00"
+      },
+      {
+        "id": "bp-c-02",
+        "name": "Ashok Nagar",
+        "address": "Metro Pillar 42",
+        "departureTime": "14:25"
+      }
+    ],
+    "droppingPoints": [
+      {
+        "id": "dp-b-01",
+        "name": "Silk Board",
+        "address": "Flyover Entry",
+        "arrivalTime": "19:30"
+      },
+      {
+        "id": "dp-b-02",
+        "name": "Majestic",
+        "address": "Platform 3",
+        "arrivalTime": "20:00"
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "bus-demo-004",
+    "operatorId": "op-neeta",
+    "serviceName": "Neeta Scania Intercity Jet",
+    "routeId": "route-bus-bom-pune",
+    "originCityId": "city-bom",
+    "destinationCityId": "city-pune",
+    "busType": "SEATER",
+    "isAC": true,
+    "departureTime": "07:30",
+    "arrivalTime": "10:45",
+    "durationMinutes": 195,
+    "farePerSeat": 420,
+    "seatLayoutId": "bus-seater-2x2",
+    "amenities": ["Expressway Transit", "AC", "Bottled Water"],
+    "boardingPoints": [
+      {
+        "id": "bp-m-01",
+        "name": "Dadar TT Circle",
+        "address": "Asiad Bus Stand",
+        "departureTime": "07:30"
+      },
+      {
+        "id": "bp-m-02",
+        "name": "Chembur",
+        "address": "Yogi Restaurant",
+        "departureTime": "08:00"
+      },
+      {
+        "id": "bp-m-03",
+        "name": "Vashi Toll",
+        "address": "Plaza Entry",
+        "departureTime": "08:20"
+      }
+    ],
+    "droppingPoints": [
+      {
+        "id": "dp-p-01",
+        "name": "Wakad Bridge",
+        "address": "Highway Junction",
+        "arrivalTime": "10:15"
+      },
+      {
+        "id": "dp-p-02",
+        "name": "Pune Station",
+        "address": "Main Gate",
+        "arrivalTime": "10:45"
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "bus-demo-005",
+    "operatorId": "op-neeta",
+    "serviceName": "Neeta Mercedes Executive",
+    "routeId": "route-bus-pune-bom",
+    "originCityId": "city-pune",
+    "destinationCityId": "city-bom",
+    "busType": "SEATER",
+    "isAC": true,
+    "departureTime": "16:00",
+    "arrivalTime": "19:30",
+    "durationMinutes": 210,
+    "farePerSeat": 450,
+    "seatLayoutId": "bus-seater-2x2",
+    "amenities": ["Air Conditioning", "Ergonomic Seats", "Fast Tag Expressway"],
+    "boardingPoints": [
+      {
+        "id": "bp-p-01",
+        "name": "Swargate",
+        "address": "Neeta Office",
+        "departureTime": "16:00"
+      },
+      {
+        "id": "bp-p-02",
+        "name": "Shivaji Nagar",
+        "address": "Bank of Baroda",
+        "departureTime": "16:20"
+      }
+    ],
+    "droppingPoints": [
+      {
+        "id": "dp-m-01",
+        "name": "Maitri Park Chembur",
+        "address": "Sion Trombay Road",
+        "arrivalTime": "19:00"
+      },
+      {
+        "id": "dp-m-02",
+        "name": "Dadar Asiad Stand",
+        "address": "Flyover Bridge",
+        "arrivalTime": "19:30"
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "bus-demo-006",
+    "operatorId": "op-zing",
+    "serviceName": "Zingbus Electric Cruiser",
+    "routeId": "route-bus-del-jai",
+    "originCityId": "city-del",
+    "destinationCityId": "city-jai",
+    "busType": "SEATER",
+    "isAC": true,
+    "departureTime": "07:00",
+    "arrivalTime": "11:45",
+    "durationMinutes": 285,
+    "farePerSeat": 550,
+    "seatLayoutId": "bus-seater-2x2",
+    "amenities": [
+      "Zero Emissions",
+      "Free Hot Coffee",
+      "Wi-Fi",
+      "Lounge Boarding"
+    ],
+    "boardingPoints": [
+      {
+        "id": "bp-d-01",
+        "name": "ISBT Kashmiri Gate",
+        "address": "Metro Gate 2",
+        "departureTime": "07:00"
+      },
+      {
+        "id": "bp-d-02",
+        "name": "Dhaula Kuan",
+        "address": "Flyover Exit",
+        "departureTime": "07:45"
+      },
+      {
+        "id": "bp-d-03",
+        "name": "IFFCO Chowk Gurgaon",
+        "address": "Expressway Slip Road",
+        "departureTime": "08:15"
+      }
+    ],
+    "droppingPoints": [
+      {
+        "id": "dp-j-01",
+        "name": "Sindhi Camp",
+        "address": "Near Station Road",
+        "arrivalTime": "11:30"
+      },
+      {
+        "id": "dp-j-02",
+        "name": "Narayan Singh Circle",
+        "address": "Bus Stop",
+        "arrivalTime": "11:45"
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "bus-demo-007",
+    "operatorId": "op-intr",
+    "serviceName": "IntrCity SmartBus Sleeper",
+    "routeId": "route-bus-jai-del",
+    "originCityId": "city-jai",
+    "destinationCityId": "city-del",
+    "busType": "SLEEPER",
+    "isAC": true,
+    "departureTime": "23:15",
+    "arrivalTime": "05:00",
+    "durationMinutes": 345,
+    "farePerSeat": 890,
+    "seatLayoutId": "bus-sleeper-upper-lower",
+    "amenities": [
+      "Private Curtains",
+      "Clean Blankets",
+      "Onboard Washroom",
+      "SOS Emergency"
+    ],
+    "boardingPoints": [
+      {
+        "id": "bp-j-01",
+        "name": "Sindhi Camp",
+        "address": "Metro Station Gate 1",
+        "departureTime": "23:15"
+      },
+      {
+        "id": "bp-j-02",
+        "name": "Transport Nagar",
+        "address": "Near Tunnel",
+        "departureTime": "23:45"
+      }
+    ],
+    "droppingPoints": [
+      {
+        "id": "dp-d-01",
+        "name": "Dhaula Kuan",
+        "address": "Ring Road",
+        "arrivalTime": "04:30"
+      },
+      {
+        "id": "dp-d-02",
+        "name": "ISBT Kashmiri Gate",
+        "address": "Arrival Deck",
+        "arrivalTime": "05:00"
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "bus-demo-008",
+    "operatorId": "op-zing",
+    "serviceName": "Zingbus Himalayan Mountain Glider",
+    "routeId": "route-bus-del-mnl",
+    "originCityId": "city-del",
+    "destinationCityId": "city-mnl",
+    "busType": "SEMI_SLEEPER",
+    "isAC": true,
+    "departureTime": "19:00",
+    "arrivalTime": "08:30",
+    "durationMinutes": 810,
+    "farePerSeat": 1399,
+    "seatLayoutId": "bus-semi-sleeper-2x2",
+    "amenities": [
+      "Heater Equipped",
+      "Warm Blankets",
+      "Scenic Route",
+      "Motion Sickness Kit"
+    ],
+    "boardingPoints": [
+      {
+        "id": "bp-d-04",
+        "name": "Majnu Ka Tilla",
+        "address": "Gurudwara Road",
+        "departureTime": "19:00"
+      },
+      {
+        "id": "bp-d-05",
+        "name": "Karnal Bypass",
+        "address": "Mukarba Chowk",
+        "departureTime": "19:45"
+      }
+    ],
+    "droppingPoints": [
+      {
+        "id": "dp-m-03",
+        "name": "Kullu Bypass",
+        "address": "Highway Petrol Pump",
+        "arrivalTime": "07:30"
+      },
+      {
+        "id": "dp-m-04",
+        "name": "Manali Private Bus Stand",
+        "address": "Mall Road End",
+        "arrivalTime": "08:30"
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "bus-demo-009",
+    "operatorId": "op-orange",
+    "serviceName": "Orange 2+1 Ultra Sleeper",
+    "routeId": "route-bus-blr-hyd",
+    "originCityId": "city-blr",
+    "destinationCityId": "city-hyd",
+    "busType": "SLEEPER",
+    "isAC": true,
+    "departureTime": "21:30",
+    "arrivalTime": "06:15",
+    "durationMinutes": 525,
+    "farePerSeat": 1450,
+    "seatLayoutId": "bus-sleeper-upper-lower",
+    "amenities": ["Mattress Topper", "Free Water", "WiFi", "Charging Port"],
+    "boardingPoints": [
+      {
+        "id": "bp-b-06",
+        "name": "Madiwala",
+        "address": "Orange Lounge",
+        "departureTime": "21:30"
+      },
+      {
+        "id": "bp-b-07",
+        "name": "Hebbal Flyover",
+        "address": "Opposite Esteem Mall",
+        "departureTime": "22:15"
+      }
+    ],
+    "droppingPoints": [
+      {
+        "id": "dp-h-01",
+        "name": "Shamshabad Airport Road",
+        "address": "Highway Junction",
+        "arrivalTime": "05:30"
+      },
+      {
+        "id": "dp-h-02",
+        "name": "Ameerpet",
+        "address": "Near Metro",
+        "arrivalTime": "06:15"
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "bus-demo-010",
+    "operatorId": "op-krl",
+    "serviceName": "Airavat Diamond Class",
+    "routeId": "route-bus-hyd-blr",
+    "originCityId": "city-hyd",
+    "destinationCityId": "city-blr",
+    "busType": "SEATER",
+    "isAC": true,
+    "departureTime": "22:00",
+    "arrivalTime": "06:30",
+    "durationMinutes": 510,
+    "farePerSeat": 990,
+    "seatLayoutId": "bus-seater-2x2",
+    "amenities": ["Air Suspension", "Emergency Assist", "USB Port"],
+    "boardingPoints": [
+      {
+        "id": "bp-h-01",
+        "name": "MGBS Terminal",
+        "address": "Platform 11",
+        "departureTime": "22:00"
+      },
+      {
+        "id": "bp-h-02",
+        "name": "Aramghar Junction",
+        "address": "Pillar 140",
+        "departureTime": "22:35"
+      }
+    ],
+    "droppingPoints": [
+      {
+        "id": "dp-b-03",
+        "name": "Yelahanka",
+        "address": "Police Station Circle",
+        "arrivalTime": "05:45"
+      },
+      {
+        "id": "dp-b-04",
+        "name": "Shantinagar",
+        "address": "Double Road",
+        "arrivalTime": "06:30"
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "bus-demo-011",
+    "operatorId": "op-vrl",
+    "serviceName": "VRL Coastal Sleeper",
+    "routeId": "route-bus-blr-goa",
+    "originCityId": "city-blr",
+    "destinationCityId": "city-goa",
+    "busType": "SLEEPER",
+    "isAC": true,
+    "departureTime": "20:00",
+    "arrivalTime": "07:30",
+    "durationMinutes": 690,
+    "farePerSeat": 1250,
+    "seatLayoutId": "bus-sleeper-upper-lower",
+    "amenities": ["Pillow & Blanket", "Coastal Express", "Charging Outlets"],
+    "boardingPoints": [
+      {
+        "id": "bp-b-08",
+        "name": "Rajajinagar",
+        "address": "1st Block VRL Office",
+        "departureTime": "20:00"
+      },
+      {
+        "id": "bp-b-09",
+        "name": "Yeshwantpur",
+        "address": "Govardhan Theatre",
+        "departureTime": "20:30"
+      }
+    ],
+    "droppingPoints": [
+      {
+        "id": "dp-g-01",
+        "name": "Madgaon (Margao)",
+        "address": "KTC Bus Stand",
+        "arrivalTime": "06:45"
+      },
+      {
+        "id": "dp-g-02",
+        "name": "Panaji",
+        "address": "Patto Plaza",
+        "arrivalTime": "07:30"
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "bus-demo-012",
+    "operatorId": "op-neeta",
+    "serviceName": "Neeta Konkan Sleeper Express",
+    "routeId": "route-bus-bom-goa",
+    "originCityId": "city-bom",
+    "destinationCityId": "city-goa",
+    "busType": "SLEEPER",
+    "isAC": true,
+    "departureTime": "18:30",
+    "arrivalTime": "07:00",
+    "durationMinutes": 750,
+    "farePerSeat": 1350,
+    "seatLayoutId": "bus-sleeper-upper-lower",
+    "amenities": ["Curtains", "Reading Light", "Water Bottle", "Clean Coach"],
+    "boardingPoints": [
+      {
+        "id": "bp-m-04",
+        "name": "Borivali West",
+        "address": "Gokul Hotel",
+        "departureTime": "18:30"
+      },
+      {
+        "id": "bp-m-05",
+        "name": "Andheri East",
+        "address": "Western Express Highway",
+        "departureTime": "19:00"
+      },
+      {
+        "id": "bp-m-06",
+        "name": "Sion Circle",
+        "address": "Cineplanet Theatre",
+        "departureTime": "19:45"
+      }
+    ],
+    "droppingPoints": [
+      {
+        "id": "dp-g-03",
+        "name": "Mapusa",
+        "address": "Near Taxi Stand",
+        "arrivalTime": "06:15"
+      },
+      {
+        "id": "dp-g-04",
+        "name": "Panjim",
+        "address": "KTC Bus Terminus",
+        "arrivalTime": "07:00"
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "bus-demo-013",
+    "operatorId": "op-srs",
+    "serviceName": "SRS Scania Semi-Sleeper",
+    "routeId": "route-bus-che-cbe",
+    "originCityId": "city-che",
+    "destinationCityId": "city-cbe",
+    "busType": "SEMI_SLEEPER",
+    "isAC": true,
+    "departureTime": "22:00",
+    "arrivalTime": "06:00",
+    "durationMinutes": 480,
+    "farePerSeat": 780,
+    "seatLayoutId": "bus-semi-sleeper-2x2",
+    "amenities": ["Thigh Rest", "USB Charger", "Emergency Button"],
+    "boardingPoints": [
+      {
+        "id": "bp-c-03",
+        "name": "Koyambedu",
+        "address": "Omni Stand",
+        "departureTime": "22:00"
+      },
+      {
+        "id": "bp-c-04",
+        "name": "Tambaram",
+        "address": "Hindu Mission Hospital",
+        "departureTime": "22:45"
+      }
+    ],
+    "droppingPoints": [
+      {
+        "id": "dp-cb-01",
+        "name": "Gandhipuram",
+        "address": "Cross Cut Road",
+        "arrivalTime": "05:45"
+      },
+      {
+        "id": "dp-cb-02",
+        "name": "Ukkadam",
+        "address": "Bus Terminus",
+        "arrivalTime": "06:00"
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "bus-demo-014",
+    "operatorId": "op-krl",
+    "serviceName": "Airavat Kerala Link",
+    "routeId": "route-bus-blr-cok",
+    "originCityId": "city-blr",
+    "destinationCityId": "city-cok",
+    "busType": "SEATER",
+    "isAC": true,
+    "departureTime": "21:00",
+    "arrivalTime": "06:30",
+    "durationMinutes": 570,
+    "farePerSeat": 1050,
+    "seatLayoutId": "bus-seater-2x2",
+    "amenities": ["Live Tracking", "Pillow Provided", "Comfort Suspensions"],
+    "boardingPoints": [
+      {
+        "id": "bp-b-10",
+        "name": "Shantinagar",
+        "address": "Platform 2",
+        "departureTime": "21:00"
+      },
+      {
+        "id": "bp-b-11",
+        "name": "Electronic City",
+        "address": "Toll Gate",
+        "departureTime": "21:40"
+      }
+    ],
+    "droppingPoints": [
+      {
+        "id": "dp-k-01",
+        "name": "Aluva Bypass",
+        "address": "Near Metro",
+        "arrivalTime": "05:45"
+      },
+      {
+        "id": "dp-k-02",
+        "name": "Ernakulam South",
+        "address": "KSRTC Stand",
+        "arrivalTime": "06:30"
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "bus-demo-015",
+    "operatorId": "op-bb",
+    "serviceName": "Booking Baaba Coastal Cruiser",
+    "routeId": "route-bus-che-pon",
+    "originCityId": "city-che",
+    "destinationCityId": "city-pon",
+    "busType": "SEATER",
+    "isAC": true,
+    "departureTime": "08:00",
+    "arrivalTime": "11:00",
+    "durationMinutes": 180,
+    "farePerSeat": 340,
+    "seatLayoutId": "bus-seater-2x1",
+    "amenities": ["Panoramic Windows", "ECR Scenic Drive", "Welcome Snack"],
+    "boardingPoints": [
+      {
+        "id": "bp-c-05",
+        "name": "T Nagar",
+        "address": "Panagal Park",
+        "departureTime": "08:00"
+      },
+      {
+        "id": "bp-c-06",
+        "name": "Thiruvanmiyur",
+        "address": "RTO Signal ECR",
+        "departureTime": "08:35"
+      }
+    ],
+    "droppingPoints": [
+      {
+        "id": "dp-po-01",
+        "name": "Auroville Junction",
+        "address": "ECR Corner",
+        "arrivalTime": "10:35"
+      },
+      {
+        "id": "dp-po-02",
+        "name": "Pondicherry Main Stand",
+        "address": "Maraimalai Adigal Salai",
+        "arrivalTime": "11:00"
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "bus-demo-016",
+    "operatorId": "op-orange",
+    "serviceName": "Orange Vijayawada Rocket",
+    "routeId": "route-bus-hyd-vja",
+    "originCityId": "city-hyd",
+    "destinationCityId": "city-vja",
+    "busType": "SEATER",
+    "isAC": true,
+    "departureTime": "15:00",
+    "arrivalTime": "20:00",
+    "durationMinutes": 300,
+    "farePerSeat": 620,
+    "seatLayoutId": "bus-seater-2x2",
+    "amenities": ["High Speed AC", "Movie Audio", "Bottle Holder"],
+    "boardingPoints": [
+      {
+        "id": "bp-h-03",
+        "name": "KPHB Colony",
+        "address": "Near Metro",
+        "departureTime": "15:00"
+      },
+      {
+        "id": "bp-h-04",
+        "name": "LB Nagar",
+        "address": "Ring Road Corner",
+        "departureTime": "15:45"
+      }
+    ],
+    "droppingPoints": [
+      {
+        "id": "dp-v-01",
+        "name": "Benz Circle",
+        "address": "Flyover Junction",
+        "arrivalTime": "19:40"
+      },
+      {
+        "id": "dp-v-02",
+        "name": "Pandit Nehru Bus Station",
+        "address": "Platform 1",
+        "arrivalTime": "20:00"
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "bus-demo-017",
+    "operatorId": "op-intr",
+    "serviceName": "IntrCity Taj Express Superliner",
+    "routeId": "route-bus-del-agr",
+    "originCityId": "city-del",
+    "destinationCityId": "city-agr",
+    "busType": "SEATER",
+    "isAC": true,
+    "departureTime": "08:30",
+    "arrivalTime": "12:00",
+    "durationMinutes": 210,
+    "farePerSeat": 420,
+    "seatLayoutId": "bus-seater-2x2",
+    "amenities": ["Yamuna Expressway Fast Ride", "WiFi", "Clean Restrooms"],
+    "boardingPoints": [
+      {
+        "id": "bp-d-06",
+        "name": "Sarai Kale Khan ISBT",
+        "address": "Near RRTS",
+        "departureTime": "08:30"
+      },
+      {
+        "id": "bp-d-07",
+        "name": "Noida Pari Chowk",
+        "address": "Expressway Entrance",
+        "departureTime": "09:15"
+      }
+    ],
+    "droppingPoints": [
+      {
+        "id": "dp-a-01",
+        "name": "Agra Toll Plaza",
+        "address": "Inner Ring Road",
+        "arrivalTime": "11:35"
+      },
+      {
+        "id": "dp-a-02",
+        "name": "Idgah Bus Stand",
+        "address": "Main Entrance",
+        "arrivalTime": "12:00"
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "bus-demo-018",
+    "operatorId": "op-bb",
+    "serviceName": "Booking Baaba Prime Bangalore-Chennai",
+    "routeId": "route-bus-blr-che",
+    "originCityId": "city-blr",
+    "destinationCityId": "city-che",
+    "busType": "SEMI_SLEEPER",
+    "isAC": true,
+    "departureTime": "15:30",
+    "arrivalTime": "21:30",
+    "durationMinutes": 360,
+    "farePerSeat": 890,
+    "seatLayoutId": "bus-semi-sleeper-2x2",
+    "amenities": ["Baaba Snack Hamper", "WiFi", "Type-C Fast Charging"],
+    "boardingPoints": [
+      {
+        "id": "bp-b-12",
+        "name": "Koramangala Sony Signal",
+        "address": "Baaba Lounge",
+        "departureTime": "15:30"
+      }
+    ],
+    "droppingPoints": [
+      {
+        "id": "dp-c-05",
+        "name": "Koyambedu",
+        "address": "Gate 1",
+        "arrivalTime": "21:30"
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "bus-demo-019",
+    "operatorId": "op-vrl",
+    "serviceName": "VRL Non-AC Budget Seater",
+    "routeId": "route-bus-bom-pune",
+    "originCityId": "city-bom",
+    "destinationCityId": "city-pune",
+    "busType": "SEATER",
+    "isAC": false,
+    "departureTime": "11:00",
+    "arrivalTime": "14:30",
+    "durationMinutes": 210,
+    "farePerSeat": 290,
+    "seatLayoutId": "bus-seater-2x2",
+    "amenities": ["Budget Friendly", "Expressway Pass"],
+    "boardingPoints": [
+      {
+        "id": "bp-m-07",
+        "name": "Thane Teen Hath Naka",
+        "address": "VRL Counter",
+        "departureTime": "11:00"
+      }
+    ],
+    "droppingPoints": [
+      {
+        "id": "dp-p-03",
+        "name": "Nigdi",
+        "address": "Pavana Nagar",
+        "arrivalTime": "14:00"
+      },
+      {
+        "id": "dp-p-04",
+        "name": "Swargate",
+        "address": "Corner",
+        "arrivalTime": "14:30"
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "bus-demo-020",
+    "operatorId": "op-zing",
+    "serviceName": "Zingbus Royal Sleeper",
+    "routeId": "route-bus-del-jai",
+    "originCityId": "city-del",
+    "destinationCityId": "city-jai",
+    "busType": "SLEEPER",
+    "isAC": true,
+    "departureTime": "22:30",
+    "arrivalTime": "04:00",
+    "durationMinutes": 330,
+    "farePerSeat": 920,
+    "seatLayoutId": "bus-sleeper-upper-lower",
+    "amenities": ["Privacy Blinds", "Clean Duvet", "Reading Lamp"],
+    "boardingPoints": [
+      {
+        "id": "bp-d-08",
+        "name": "Mahipalpur",
+        "address": "Radisson Blu",
+        "departureTime": "22:30"
+      }
+    ],
+    "droppingPoints": [
+      {
+        "id": "dp-j-03",
+        "name": "Sindhi Camp",
+        "address": "Counter 5",
+        "arrivalTime": "04:00"
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "bus-demo-021",
+    "operatorId": "op-krl",
+    "serviceName": "KSRTC Sarige Seater",
+    "routeId": "route-bus-blr-che",
+    "originCityId": "city-blr",
+    "destinationCityId": "city-che",
+    "busType": "SEATER",
+    "isAC": false,
+    "departureTime": "08:00",
+    "arrivalTime": "14:30",
+    "durationMinutes": 390,
+    "farePerSeat": 420,
+    "seatLayoutId": "bus-seater-2x2",
+    "amenities": ["Airflow Windows", "Reliable Schedule"],
+    "boardingPoints": [
+      {
+        "id": "bp-b-13",
+        "name": "Majestic Stand",
+        "address": "Platform 1",
+        "departureTime": "08:00"
+      }
+    ],
+    "droppingPoints": [
+      {
+        "id": "dp-c-06",
+        "name": "CMBT Koyambedu",
+        "address": "Platform 6",
+        "arrivalTime": "14:30"
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "bus-demo-022",
+    "operatorId": "op-orange",
+    "serviceName": "Orange BharatBenz Sleeper",
+    "routeId": "route-bus-blr-hyd",
+    "originCityId": "city-blr",
+    "destinationCityId": "city-hyd",
+    "busType": "SLEEPER",
+    "isAC": true,
+    "departureTime": "23:00",
+    "arrivalTime": "07:30",
+    "durationMinutes": 510,
+    "farePerSeat": 1390,
+    "seatLayoutId": "bus-sleeper-upper-lower",
+    "amenities": ["Double Deck", "AC", "Pillow"],
+    "boardingPoints": [
+      {
+        "id": "bp-b-14",
+        "name": "Marathahalli",
+        "address": "Bridge",
+        "departureTime": "23:00"
+      }
+    ],
+    "droppingPoints": [
+      {
+        "id": "dp-h-03",
+        "name": "Gachibowli",
+        "address": "Outer Ring Road",
+        "arrivalTime": "07:00"
+      },
+      {
+        "id": "dp-h-04",
+        "name": "Miyapur",
+        "address": "Allwyn Cross Road",
+        "arrivalTime": "07:30"
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "bus-demo-023",
+    "operatorId": "op-srs",
+    "serviceName": "SRS Volvo Club Class",
+    "routeId": "route-bus-che-blr",
+    "originCityId": "city-che",
+    "destinationCityId": "city-blr",
+    "busType": "SEATER",
+    "isAC": true,
+    "departureTime": "06:30",
+    "arrivalTime": "12:30",
+    "durationMinutes": 360,
+    "farePerSeat": 740,
+    "seatLayoutId": "bus-seater-2x2",
+    "amenities": ["Air Conditioning", "Newspaper", "Water"],
+    "boardingPoints": [
+      {
+        "id": "bp-c-07",
+        "name": "T Nagar",
+        "address": "Bus Stand",
+        "departureTime": "06:30"
+      }
+    ],
+    "droppingPoints": [
+      {
+        "id": "dp-b-05",
+        "name": "Majestic",
+        "address": "Central",
+        "arrivalTime": "12:30"
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "bus-demo-024",
+    "operatorId": "op-zing",
+    "serviceName": "Zingbus Green Fleet",
+    "routeId": "route-bus-del-mnl",
+    "originCityId": "city-del",
+    "destinationCityId": "city-mnl",
+    "busType": "SLEEPER",
+    "isAC": true,
+    "departureTime": "20:00",
+    "arrivalTime": "09:30",
+    "durationMinutes": 810,
+    "farePerSeat": 1650,
+    "seatLayoutId": "bus-sleeper-upper-lower",
+    "amenities": [
+      "Snow Line Specialist",
+      "Fleece Blanket",
+      "Warm Milk on Halt"
+    ],
+    "boardingPoints": [
+      {
+        "id": "bp-d-09",
+        "name": "Kashmiri Gate",
+        "address": "Metro Gate 1",
+        "departureTime": "20:00"
+      }
+    ],
+    "droppingPoints": [
+      {
+        "id": "dp-m-05",
+        "name": "Manali",
+        "address": "Bus Depot",
+        "arrivalTime": "09:30"
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "bus-demo-025",
+    "operatorId": "op-intr",
+    "serviceName": "IntrCity SmartBus AC Seater",
+    "routeId": "route-bus-del-jai",
+    "originCityId": "city-del",
+    "destinationCityId": "city-jai",
+    "busType": "SEATER",
+    "isAC": true,
+    "departureTime": "15:00",
+    "arrivalTime": "20:00",
+    "durationMinutes": 300,
+    "farePerSeat": 599,
+    "seatLayoutId": "bus-seater-2x2",
+    "amenities": ["Live Bus Captain", "Sanitized Cabins"],
+    "boardingPoints": [
+      {
+        "id": "bp-d-10",
+        "name": "Gurgaon IFFCO Chowk",
+        "address": "Exit 8",
+        "departureTime": "15:00"
+      }
+    ],
+    "droppingPoints": [
+      {
+        "id": "dp-j-04",
+        "name": "Sindhi Camp",
+        "address": "Terminal",
+        "arrivalTime": "20:00"
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "bus-demo-026",
+    "operatorId": "op-krl",
+    "serviceName": "Airavat Multi-Axle Volvo",
+    "routeId": "route-bus-blr-goa",
+    "originCityId": "city-blr",
+    "destinationCityId": "city-goa",
+    "busType": "SEMI_SLEEPER",
+    "isAC": true,
+    "departureTime": "21:30",
+    "arrivalTime": "08:30",
+    "durationMinutes": 660,
+    "farePerSeat": 1150,
+    "seatLayoutId": "bus-semi-sleeper-2x2",
+    "amenities": ["High Incline", "Clean Blankets", "Smooth Ride"],
+    "boardingPoints": [
+      {
+        "id": "bp-b-15",
+        "name": "Shantinagar",
+        "address": "Platform 4",
+        "departureTime": "21:30"
+      }
+    ],
+    "droppingPoints": [
+      {
+        "id": "dp-g-05",
+        "name": "Panaji KTC",
+        "address": "Bay 1",
+        "arrivalTime": "08:30"
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "bus-demo-027",
+    "operatorId": "op-vrl",
+    "serviceName": "VRL Executive Sleeper",
+    "routeId": "route-bus-hyd-vja",
+    "originCityId": "city-hyd",
+    "destinationCityId": "city-vja",
+    "busType": "SLEEPER",
+    "isAC": true,
+    "departureTime": "23:45",
+    "arrivalTime": "05:00",
+    "durationMinutes": 315,
+    "farePerSeat": 850,
+    "seatLayoutId": "bus-sleeper-upper-lower",
+    "amenities": ["Fast Highway Travel", "USB Socket"],
+    "boardingPoints": [
+      {
+        "id": "bp-h-05",
+        "name": "Dilsukhnagar",
+        "address": "VRL Counter",
+        "departureTime": "23:45"
+      }
+    ],
+    "droppingPoints": [
+      {
+        "id": "dp-v-03",
+        "name": "Vijayawada RTC",
+        "address": "Gate 2",
+        "arrivalTime": "05:00"
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "bus-demo-028",
+    "operatorId": "op-orange",
+    "serviceName": "Orange Volvo Multi-Axle",
+    "routeId": "route-bus-che-cbe",
+    "originCityId": "city-che",
+    "destinationCityId": "city-cbe",
+    "busType": "SEATER",
+    "isAC": true,
+    "departureTime": "13:30",
+    "arrivalTime": "21:30",
+    "durationMinutes": 480,
+    "farePerSeat": 720,
+    "seatLayoutId": "bus-seater-2x2",
+    "amenities": ["Day Express", "Air Conditioning", "Bottle"],
+    "boardingPoints": [
+      {
+        "id": "bp-c-08",
+        "name": "Koyambedu",
+        "address": "Omni Stand",
+        "departureTime": "13:30"
+      }
+    ],
+    "droppingPoints": [
+      {
+        "id": "dp-cb-03",
+        "name": "Gandhipuram",
+        "address": "City Stand",
+        "arrivalTime": "21:30"
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "bus-demo-029",
+    "operatorId": "op-bb",
+    "serviceName": "Booking Baaba Express Pune-Mumbai",
+    "routeId": "route-bus-pune-bom",
+    "originCityId": "city-pune",
+    "destinationCityId": "city-bom",
+    "busType": "SEATER",
+    "isAC": true,
+    "departureTime": "09:00",
+    "arrivalTime": "12:15",
+    "durationMinutes": 195,
+    "farePerSeat": 420,
+    "seatLayoutId": "bus-seater-2x1",
+    "amenities": [
+      "Signature Chai & Cookies",
+      "High Speed Expressway Pass",
+      "2+1 Luxury"
+    ],
+    "boardingPoints": [
+      {
+        "id": "bp-p-03",
+        "name": "Hinjawadi Flyover",
+        "address": "Wakad Bridge",
+        "departureTime": "09:00"
+      }
+    ],
+    "droppingPoints": [
+      {
+        "id": "dp-m-05",
+        "name": "Dadar Asiad",
+        "address": "Flyover Bridge",
+        "arrivalTime": "12:15"
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "bus-demo-030",
+    "operatorId": "op-intr",
+    "serviceName": "IntrCity SmartBus Sleeper Bangalore",
+    "routeId": "route-bus-che-blr",
+    "originCityId": "city-che",
+    "destinationCityId": "city-blr",
+    "busType": "SLEEPER",
+    "isAC": true,
+    "departureTime": "23:45",
+    "arrivalTime": "05:45",
+    "durationMinutes": 360,
+    "farePerSeat": 1100,
+    "seatLayoutId": "bus-sleeper-upper-lower",
+    "amenities": [
+      "Comfortable Beds",
+      "Curtains",
+      "Free Water",
+      "Luggage Tagging"
+    ],
+    "boardingPoints": [
+      {
+        "id": "bp-c-09",
+        "name": "Koyambedu",
+        "address": "Private Stand",
+        "departureTime": "23:45"
+      }
+    ],
+    "droppingPoints": [
+      {
+        "id": "dp-b-06",
+        "name": "Electronic City",
+        "address": "Toll",
+        "arrivalTime": "05:15"
+      },
+      {
+        "id": "dp-b-07",
+        "name": "Majestic",
+        "address": "Main Entrance",
+        "arrivalTime": "05:45"
+      }
+    ],
+    "demoData": true
+  },
+  {
+    "id": "bus-demo-031",
+    "operatorId": "op-krl",
+    "serviceName": "KSRTC FlyBus Airport Direct",
+    "routeId": "route-bus-blr-mys",
+    "originCityId": "city-blr",
+    "destinationCityId": "city-mys",
+    "busType": "SEATER",
+    "isAC": true,
+    "departureTime": "10:00",
+    "arrivalTime": "13:00",
+    "durationMinutes": 180,
+    "farePerSeat": 450,
+    "seatLayoutId": "bus-seater-2x2",
+    "amenities": [
+      "Air Conditioning",
+      "Expressway Non-Stop",
+      "Live Flight Tracking"
+    ],
+    "boardingPoints": [
+      {
+        "id": "bp-b-16",
+        "name": "Kempegowda Bus Station",
+        "address": "Majestic",
+        "departureTime": "10:00"
+      }
+    ],
+    "droppingPoints": [
+      {
+        "id": "dp-my-01",
+        "name": "Suburban Bus Stand",
+        "address": "Mysuru City",
+        "arrivalTime": "13:00"
+      }
+    ],
+    "demoData": true
+  }
+]

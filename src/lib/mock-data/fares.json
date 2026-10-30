@@ -1,0 +1,61 @@
+{
+  "currency": "INR",
+  "rates": {
+    "flightGstPercentage": 5,
+    "trainGstPercentage": 5,
+    "busGstPercentage": 5,
+    "flightServiceFee": 199,
+    "trainServiceFee": 30,
+    "busServiceFee": 40
+  },
+  "discounts": {
+    "WELCOMEBAABA": {
+      "code": "WELCOMEBAABA",
+      "discountAmount": 150,
+      "minimumSpend": 500,
+      "description": "₹150 Flat Discount for your first booking on Booking Baaba"
+    },
+    "SAFAR200": {
+      "code": "SAFAR200",
+      "discountAmount": 200,
+      "minimumSpend": 1000,
+      "description": "₹200 OFF on any train, flight, or bus journey"
+    },
+    "FLYHIGH": {
+      "code": "FLYHIGH",
+      "discountAmount": 500,
+      "minimumSpend": 4000,
+      "description": "₹500 OFF on flight bookings above ₹4,000"
+    }
+  },
+  "extras": [
+    {
+      "id": "extra-travel-insurance",
+      "name": "Comprehensive Travel Insurance",
+      "price": 49,
+      "category": "insurance",
+      "description": "Covers medical emergencies, trip delays, and lost baggage up to ₹5,00,000."
+    },
+    {
+      "id": "extra-cancel-protect",
+      "name": "Zero Cancellation Guarantee",
+      "price": 149,
+      "category": "cancellation_protect",
+      "description": "100% instant refund into wallet if cancelled up to 6 hours before departure."
+    },
+    {
+      "id": "extra-hot-meal",
+      "name": "Pre-booked Hot Chef Meal",
+      "price": 299,
+      "category": "meal",
+      "description": "Choice of Paneer Tikka Masala or Butter Chicken with Basmati Rice and Dessert."
+    },
+    {
+      "id": "extra-baggage-5kg",
+      "name": "Extra 5kg Baggage Allowance",
+      "price": 999,
+      "category": "baggage",
+      "description": "Pre-purchase checked baggage allowance at 50% discount compared to airport rates."
+    }
+  ]
+}
